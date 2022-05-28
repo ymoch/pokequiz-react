@@ -74,8 +74,8 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
 }
 
 function App() {
-  const lhs = pokemons[0];
-  const rhs = pokemons[1];
+  const lhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
+  const rhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
   return (
     <Container maxWidth="xl">
       <h1>速いのは?</h1>

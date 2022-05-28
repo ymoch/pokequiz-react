@@ -2,9 +2,9 @@ export default interface Pokemon {
   name: {
     ja: string;
   };
-  form?: {
+  form: {
     ja: string;
-  };
+  } | null;
   baseStats: {
     speed: number;
   }
