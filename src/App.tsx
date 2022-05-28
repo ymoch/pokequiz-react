@@ -1,10 +1,11 @@
 import React from 'react';
 import {Button, Container, Grid, Typography} from '@mui/material';
 import './App.css';
+import Pokemon from './models/pokemon';
 
 import pokemons from './resources/pokemon.json';
 
-function PokemonView({pokemon}: any) {
+function PokemonView({pokemon}: {pokemon: Pokemon}) {
   return (
     <Container disableGutters>
       <Typography align="center">
@@ -18,7 +19,7 @@ function PokemonView({pokemon}: any) {
   );
 }
 
-function QuizForm({lhs, rhs}: any) {
+function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
   const [answered, setAnswered] = React.useState(false);
 
   const onClick = () => {
