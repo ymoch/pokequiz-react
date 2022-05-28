@@ -15,9 +15,9 @@ interface Pokemon {
   sprite: string;
 };
 
-function PokemonView({pokemon, answered}: any) {
+function PokemonView({pokemon}: any) {
   return (
-    <Container>
+    <Container disableGutters>
       <Typography align="center">
         <img src={pokemon.sprite} width={96} height={96} />
       </Typography>
@@ -25,11 +25,6 @@ function PokemonView({pokemon, answered}: any) {
         {pokemon.name.ja}
         {pokemon.form && <small>({pokemon.form.ja})</small>}
       </Typography>
-      {answered &&
-        <Typography align="center">
-          種族値: <strong>{pokemon.baseStats.speed}</strong>
-        </Typography>
-      }
     </Container>
   );
 }
@@ -50,9 +45,16 @@ function QuizForm({lhs, rhs}: any) {
           disabled={answered}
           onClick={onClick}
         >
-          <PokemonView pokemon={lhs} answered={answered} />
+          <PokemonView pokemon={lhs} />
         </Button>
+
+        {answered &&
+          <Typography align="center">
+            種族値: <strong>{lhs.baseStats.speed}</strong>
+          </Typography>
+        }
       </Grid>
+
       <Grid item xs={12} sm={6}>
         <Button
           fullWidth
@@ -60,9 +62,16 @@ function QuizForm({lhs, rhs}: any) {
           disabled={answered}
           onClick={onClick}
         >
-          <PokemonView pokemon={rhs} answered={answered} />
+          <PokemonView pokemon={rhs} />
         </Button>
+
+        {answered &&
+          <Typography align="center">
+            種族値: <strong>{rhs.baseStats.speed}</strong>
+          </Typography>
+        }
       </Grid>
+
       {!answered &&
         <Grid item xs={12}>
           <Button fullWidth variant="outlined" onClick={onClick}>
