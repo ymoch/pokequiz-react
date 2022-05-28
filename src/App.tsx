@@ -15,7 +15,7 @@ interface Pokemon {
   sprite: string;
 };
 
-function PokemonView({pokemon, isAnswered}: any) {
+function PokemonView({pokemon, answered}: any) {
   return (
     <Container>
       <Typography align="center">
@@ -25,7 +25,7 @@ function PokemonView({pokemon, isAnswered}: any) {
         {pokemon.name.ja}
         {pokemon.form && <small>({pokemon.form.ja})</small>}
       </Typography>
-      {isAnswered &&
+      {answered &&
         <Typography align="center">
           種族値: <strong>{pokemon.baseStats.speed}</strong>
         </Typography>
@@ -35,23 +35,41 @@ function PokemonView({pokemon, isAnswered}: any) {
 }
 
 function QuizForm({lhs, rhs}: any) {
+  const [answered, setAnswered] = React.useState(false);
+
+  const onClick = () => {
+    setAnswered(true);
+  };
+
   return (
     <Grid container spacing={2}>
       <Grid item xs={12} sm={6}>
-        <Button fullWidth variant="outlined">
-          <PokemonView pokemon={lhs} />
+        <Button
+          fullWidth
+          variant="outlined"
+          disabled={answered}
+          onClick={onClick}
+        >
+          <PokemonView pokemon={lhs} answered={answered} />
         </Button>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button fullWidth variant="outlined">
-          <PokemonView pokemon={rhs} />
+        <Button
+          fullWidth
+          variant="outlined"
+          disabled={answered}
+          onClick={onClick}
+        >
+          <PokemonView pokemon={rhs} answered={answered} />
         </Button>
       </Grid>
-      <Grid item xs={12}>
-        <Button fullWidth variant="outlined">
-          <Typography align="center">同じ</Typography>
-        </Button>
-      </Grid>
+      {!answered &&
+        <Grid item xs={12}>
+          <Button fullWidth variant="outlined" onClick={onClick}>
+            <Typography align="center">同じ</Typography>
+          </Button>
+        </Grid>
+      }
     </Grid>
   );
 }
