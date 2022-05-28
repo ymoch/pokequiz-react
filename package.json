@@ -2,6 +2,7 @@
   "name": "pokequiz-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ymoch.github.io/pokequiz-react/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -23,8 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint . --ext ts,tsx"
+    "lint": "eslint . --ext ts,tsx",
+    "deploy": "npm run build && gh-pages --dist build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +50,7 @@
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.30.0"
+    "eslint-plugin-react": "^7.30.0",
+    "gh-pages": "^4.0.0"
   }
 }
