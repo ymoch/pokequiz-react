@@ -1,0 +1,26 @@
+[
+  {
+    "name": {
+      "ja": "ウーラオス"
+    },
+    "form": {
+      "ja": "いちげきのかた"
+    },
+    "baseStats": {
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+  },
+  {
+    "name": {
+      "ja": "ランドロス"
+    },
+    "form": {
+      "ja": "れいじゅうフォルム"
+    },
+    "baseStats": {
+      "speed": 91
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png"
+  }
+]

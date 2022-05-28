@@ -2,18 +2,7 @@ import React from 'react';
 import {Button, Container, Grid, Typography} from '@mui/material';
 import './App.css';
 
-interface Pokemon {
-  name: {
-    ja: string;
-  };
-  form?: {
-    ja: string;
-  };
-  baseStats: {
-    speed: number;
-  }
-  sprite: string;
-};
+import pokemons from './resources/pokemon.json';
 
 function PokemonView({pokemon}: any) {
   return (
@@ -83,36 +72,13 @@ function QuizForm({lhs, rhs}: any) {
   );
 }
 
-const landorus: Pokemon = {
-  name: {
-    ja: 'ランドロス',
-  },
-  form: {
-    ja: 'れいじゅうフォルム',
-  },
-  baseStats: {
-    speed: 91,
-  },
-  sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png',
-};
-const urashifu: Pokemon = {
-  name: {
-    ja: 'ウーラオス',
-  },
-  form: {
-    ja: 'いちげきのかた',
-  },
-  baseStats: {
-    speed: 97,
-  },
-  sprite: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png',
-};
-
 function App() {
+  const lhs = pokemons[0];
+  const rhs = pokemons[1];
   return (
     <Container maxWidth="xl">
       <h1>速いのは?</h1>
-      <QuizForm lhs={landorus} rhs={urashifu} />
+      <QuizForm lhs={lhs} rhs={rhs} />
     </Container>
   );
 }
