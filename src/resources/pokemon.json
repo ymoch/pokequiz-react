@@ -1,6 +1,178 @@
 [
   {
     "name": {
+      "ja": "ザシアン"
+    },
+    "form": {
+      "ja": "けんのおう"
+    },
+    "baseStats": {
+      "speed": 148
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png"
+  },
+  {
+    "name": {
+      "ja": "サンダー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+  },
+  {
+    "name": {
+      "ja": "ランドロス"
+    },
+    "form": {
+      "ja": "れいじゅうフォルム"
+    },
+    "baseStats": {
+      "speed": 91
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png"
+  },
+  {
+    "name": {
+      "ja": "メタモン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 48
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+  },
+  {
+    "name": {
+      "ja": "カイオーガ"
+    },
+    "form": {
+      "ja": "カイオーガのすがた"
+    },
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
+  },
+  {
+    "name": {
+      "ja": "バドレックス"
+    },
+    "form": {
+      "ja": "こくばじょうのすがた"
+    },
+    "baseStats": {
+      "speed": 150
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png"
+  },
+  {
+    "name": {
+      "ja": "ポリゴン２"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+  },
+  {
+    "name": {
+      "ja": "イベルタル"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 99
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
+  },
+  {
+    "name": {
+      "ja": "バンギラス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 61
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
+  },
+  {
+    "name": {
+      "ja": "ヌオー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
+  },
+  {
+    "name": {
+      "ja": "ナットレイ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
+  },
+  {
+    "name": {
+      "ja": "ネクロズマ"
+    },
+    "form": {
+      "ja": "たそがれのたてがみ"
+    },
+    "baseStats": {
+      "speed": 77
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png"
+  },
+  {
+    "name": {
+      "ja": "エースバーン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 119
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png"
+  },
+  {
+    "name": {
+      "ja": "ガマゲロゲ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 74
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+  },
+  {
+    "name": {
+      "ja": "ミミッキュ"
+    },
+    "form": {
+      "ja": "ばけたすがた"
+    },
+    "baseStats": {
+      "speed": 96
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
+  },
+  {
+    "name": {
+      "ja": "ホウオウ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png"
+  },
+  {
+    "name": {
       "ja": "ウーラオス"
     },
     "form": {
@@ -13,14 +185,1378 @@
   },
   {
     "name": {
-      "ja": "ランドロス"
+      "ja": "ムゲンダイナ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png"
+  },
+  {
+    "name": {
+      "ja": "ラッキー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+  },
+  {
+    "name": {
+      "ja": "カバルドン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 47
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
+  },
+  {
+    "name": {
+      "ja": "トリトドン"
+    },
+    "form": {
+      "ja": "にしのうみ"
+    },
+    "baseStats": {
+      "speed": 39
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+  },
+  {
+    "name": {
+      "ja": "ゼルネアス"
+    },
+    "form": {
+      "ja": "アクティブモード"
+    },
+    "baseStats": {
+      "speed": 99
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
+  },
+  {
+    "name": {
+      "ja": "オーロンゲ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+  },
+  {
+    "name": {
+      "ja": "ゼクロム"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
+  },
+  {
+    "name": {
+      "ja": "ガオガエン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+  },
+  {
+    "name": {
+      "ja": "ウーラオス"
+    },
+    "form": {
+      "ja": "れんげきのかた"
+    },
+    "baseStats": {
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png"
+  },
+  {
+    "name": {
+      "ja": "レジエレキ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 200
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png"
+  },
+  {
+    "name": {
+      "ja": "マンムー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
+  },
+  {
+    "name": {
+      "ja": "ディアルガ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
+  },
+  {
+    "name": {
+      "ja": "テッカグヤ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 61
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png"
+  },
+  {
+    "name": {
+      "ja": "キュレム"
+    },
+    "form": {
+      "ja": "ブラックキュレム"
+    },
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png"
+  },
+  {
+    "name": {
+      "ja": "ウオノラゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png"
+  },
+  {
+    "name": {
+      "ja": "ラグラージ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・レヒレ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png"
+  },
+  {
+    "name": {
+      "ja": "ヒヒダルマ"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png"
+  },
+  {
+    "name": {
+      "ja": "ゴリランダー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+  },
+  {
+    "name": {
+      "ja": "ドラパルト"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 142
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png"
+  },
+  {
+    "name": {
+      "ja": "ジガルデ"
+    },
+    "form": {
+      "ja": "パーフェクトフォルム"
+    },
+    "baseStats": {
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png"
+  },
+  {
+    "name": {
+      "ja": "ガブリアス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 102
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+  },
+  {
+    "name": {
+      "ja": "ヌケニン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+  },
+  {
+    "name": {
+      "ja": "ブラッキー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+  },
+  {
+    "name": {
+      "ja": "ラプラス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+  },
+  {
+    "name": {
+      "ja": "グラードン"
+    },
+    "form": {
+      "ja": "グラードンのすがた"
+    },
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
+  },
+  {
+    "name": {
+      "ja": "ルギア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png"
+  },
+  {
+    "name": {
+      "ja": "ハピナス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+  },
+  {
+    "name": {
+      "ja": "エルフーン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 116
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
+  },
+  {
+    "name": {
+      "ja": "バドレックス"
+    },
+    "form": {
+      "ja": "はくばじょうのすがた"
+    },
+    "baseStats": {
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png"
+  },
+  {
+    "name": {
+      "ja": "レシラム"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
+  },
+  {
+    "name": {
+      "ja": "フェローチェ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 151
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png"
+  },
+  {
+    "name": {
+      "ja": "バシャーモ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+  },
+  {
+    "name": {
+      "ja": "ロトム"
+    },
+    "form": {
+      "ja": "ウォッシュロトム"
+    },
+    "baseStats": {
+      "speed": 86
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png"
+  },
+  {
+    "name": {
+      "ja": "ゴチルゼル"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+  },
+  {
+    "name": {
+      "ja": "ファイヤー"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png"
+  },
+  {
+    "name": {
+      "ja": "カイリュー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+  },
+  {
+    "name": {
+      "ja": "ドリュウズ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 88
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
+  },
+  {
+    "name": {
+      "ja": "カミツルギ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png"
+  },
+  {
+    "name": {
+      "ja": "ロトム"
+    },
+    "form": {
+      "ja": "ヒートロトム"
+    },
+    "baseStats": {
+      "speed": 86
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png"
+  },
+  {
+    "name": {
+      "ja": "ミュウツー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+  },
+  {
+    "name": {
+      "ja": "キュウコン"
+    },
+    "form": {
+      "ja": "アローラのすがた"
+    },
+    "baseStats": {
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png"
+  },
+  {
+    "name": {
+      "ja": "キュレム"
+    },
+    "form": {
+      "ja": "ホワイトキュレム"
+    },
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png"
+  },
+  {
+    "name": {
+      "ja": "ヒードラン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 77
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
+  },
+  {
+    "name": {
+      "ja": "ナマコブシ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 5
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
+  },
+  {
+    "name": {
+      "ja": "エレザード"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+  },
+  {
+    "name": {
+      "ja": "リザードン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+  },
+  {
+    "name": {
+      "ja": "レックウザ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png"
+  },
+  {
+    "name": {
+      "ja": "エアームド"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
+  },
+  {
+    "name": {
+      "ja": "ウインディ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・コケコ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png"
+  },
+  {
+    "name": {
+      "ja": "ドサイドン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+  },
+  {
+    "name": {
+      "ja": "ウルガモス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+  },
+  {
+    "name": {
+      "ja": "ルナアーラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
+  },
+  {
+    "name": {
+      "ja": "ドヒドイデ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+  },
+  {
+    "name": {
+      "ja": "パルキア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
+  },
+  {
+    "name": {
+      "ja": "ボルトロス"
+    },
+    "form": {
+      "ja": "けしんフォルム"
+    },
+    "baseStats": {
+      "speed": 111
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png"
+  },
+  {
+    "name": {
+      "ja": "アシレーヌ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
+  },
+  {
+    "name": {
+      "ja": "ウツロイド"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 103
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png"
+  },
+  {
+    "name": {
+      "ja": "メタグロス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+  },
+  {
+    "name": {
+      "ja": "ボーマンダ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
+  },
+  {
+    "name": {
+      "ja": "ソルガレオ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
+  },
+  {
+    "name": {
+      "ja": "スイクン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png"
+  },
+  {
+    "name": {
+      "ja": "シャンデラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+  },
+  {
+    "name": {
+      "ja": "アーマーガア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 67
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+  },
+  {
+    "name": {
+      "ja": "クレッフィ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
+  },
+  {
+    "name": {
+      "ja": "カメックス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 78
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+  },
+  {
+    "name": {
+      "ja": "ギルガルド"
+    },
+    "form": {
+      "ja": "シールドフォルム"
+    },
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+  },
+  {
+    "name": {
+      "ja": "クレセリア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+  },
+  {
+    "name": {
+      "ja": "サニーゴ"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png"
+  },
+  {
+    "name": {
+      "ja": "ゲンガー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+  },
+  {
+    "name": {
+      "ja": "ハッサム"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+  },
+  {
+    "name": {
+      "ja": "ギャラドス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 81
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+  },
+  {
+    "name": {
+      "ja": "デンチュラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 108
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
+  },
+  {
+    "name": {
+      "ja": "ギラティナ"
+    },
+    "form": {
+      "ja": "オリジンフォルム"
+    },
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png"
+  },
+  {
+    "name": {
+      "ja": "ファイヤー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+  },
+  {
+    "name": {
+      "ja": "ブリムオン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 29
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+  },
+  {
+    "name": {
+      "ja": "コータス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
+  },
+  {
+    "name": {
+      "ja": "ホルード"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 78
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+  },
+  {
+    "name": {
+      "ja": "ジバコイル"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・ブルル"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png"
+  },
+  {
+    "name": {
+      "ja": "マリルリ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
+  },
+  {
+    "name": {
+      "ja": "パッチラゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png"
+  },
+  {
+    "name": {
+      "ja": "ルカリオ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+  },
+  {
+    "name": {
+      "ja": "カビゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+  },
+  {
+    "name": {
+      "ja": "ペロリーム"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 72
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+  },
+  {
+    "name": {
+      "ja": "マニューラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 125
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+  },
+  {
+    "name": {
+      "ja": "ミロカロス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 81
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+  },
+  {
+    "name": {
+      "ja": "ラティオス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png"
+  },
+  {
+    "name": {
+      "ja": "ザマゼンタ"
+    },
+    "form": {
+      "ja": "れきせんのゆうしゃ"
+    },
+    "baseStats": {
+      "speed": 138
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png"
+  },
+  {
+    "name": {
+      "ja": "ニンフィア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+  },
+  {
+    "name": {
+      "ja": "ツボツボ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 5
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
+  },
+  {
+    "name": {
+      "ja": "ボルトロス"
     },
     "form": {
       "ja": "れいじゅうフォルム"
     },
     "baseStats": {
-      "speed": 91
+      "speed": 101
     },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png"
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・テテフ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
+  },
+  {
+    "name": {
+      "ja": "パルシェン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+  },
+  {
+    "name": {
+      "ja": "サンダー"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png"
+  },
+  {
+    "name": {
+      "ja": "ゾロアーク"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+  },
+  {
+    "name": {
+      "ja": "ガラガラ"
+    },
+    "form": {
+      "ja": "アローラのすがた"
+    },
+    "baseStats": {
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png"
+  },
+  {
+    "name": {
+      "ja": "ランターン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 67
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+  },
+  {
+    "name": {
+      "ja": "ズガドーン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 107
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png"
+  },
+  {
+    "name": {
+      "ja": "ユクシー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
+  },
+  {
+    "name": {
+      "ja": "ペンドラー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 112
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+  },
+  {
+    "name": {
+      "ja": "バタフリー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+  },
+  {
+    "name": {
+      "ja": "ポットデス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+  },
+  {
+    "name": {
+      "ja": "デンジュモク"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 83
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png"
+  },
+  {
+    "name": {
+      "ja": "エーフィ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+  },
+  {
+    "name": {
+      "ja": "チラチーノ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 115
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
+  },
+  {
+    "name": {
+      "ja": "トゲキッス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
+  },
+  {
+    "name": {
+      "ja": "エンテイ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png"
+  },
+  {
+    "name": {
+      "ja": "アイアント"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
+  },
+  {
+    "name": {
+      "ja": "インテレオン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 120
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png"
+  },
+  {
+    "name": {
+      "ja": "ギラティナ"
+    },
+    "form": {
+      "ja": "アナザーフォルム"
+    },
+    "baseStats": {
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
+  },
+  {
+    "name": {
+      "ja": "タチフサグマ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png"
+  },
+  {
+    "name": {
+      "ja": "ボスゴドラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
+  },
+  {
+    "name": {
+      "ja": "バイウールー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 88
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png"
+  },
+  {
+    "name": {
+      "ja": "ラティアス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png"
+  },
+  {
+    "name": {
+      "ja": "ヌメルゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+  },
+  {
+    "name": {
+      "ja": "フシギバナ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+  },
+  {
+    "name": {
+      "ja": "アギルダー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 145
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+  },
+  {
+    "name": {
+      "ja": "サザンドラ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 98
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+  },
+  {
+    "name": {
+      "ja": "ルガルガン"
+    },
+    "form": {
+      "ja": "たそがれのすがた"
+    },
+    "baseStats": {
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png"
+  },
+  {
+    "name": {
+      "ja": "マッギョ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 32
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
+  },
+  {
+    "name": {
+      "ja": "サーナイト"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+  },
+  {
+    "name": {
+      "ja": "オノノクス"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+  },
+  {
+    "name": {
+      "ja": "ハガネール"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+  },
+  {
+    "name": {
+      "ja": "シザリガー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+  },
+  {
+    "name": {
+      "ja": "ニダンギル"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+  },
+  {
+    "name": {
+      "ja": "ルンパッパ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
+  },
+  {
+    "name": {
+      "ja": "クレベース"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 28
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+  },
+  {
+    "name": {
+      "ja": "グレイシア"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+  },
+  {
+    "name": {
+      "ja": "ドータクン"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 33
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png"
+  },
+  {
+    "name": {
+      "ja": "ピクシー"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+  },
+  {
+    "name": {
+      "ja": "ヤミラミ"
+    },
+    "form": null,
+    "baseStats": {
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
   }
 ]
