@@ -57,7 +57,7 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
 
       {!answered &&
         <Grid item xs={12}>
-          <Button fullWidth variant="outlined" onClick={onClick}>
+          <Button fullWidth variant="outlined" size="large" onClick={onClick}>
             <Typography align="center">同じ</Typography>
           </Button>
         </Grid>
