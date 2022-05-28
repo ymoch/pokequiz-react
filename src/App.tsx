@@ -5,13 +5,18 @@ import Pokemon from './models/pokemon';
 
 import pokemons from './resources/pokemon.json';
 
-function PokemonView({pokemon}: {pokemon: Pokemon}) {
+function PokemonView(
+    {pokemon, answered}: {pokemon: Pokemon, answered: boolean},
+) {
   return (
     <Container disableGutters>
+      <Typography align="center" variant="h5" color="primary">
+        すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
+      </Typography>
       <Typography align="center">
         <img src={pokemon.sprite} width={96} height={96} />
       </Typography>
-      <Typography align="center">
+      <Typography align="center" variant="caption">
         {pokemon.name.ja}
         {pokemon.form && <small>({pokemon.form.ja})</small>}
       </Typography>
@@ -35,14 +40,8 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
           disabled={answered}
           onClick={onClick}
         >
-          <PokemonView pokemon={lhs} />
+          <PokemonView pokemon={lhs} answered={answered}/>
         </Button>
-
-        {answered &&
-          <Typography align="center">
-            種族値: <strong>{lhs.baseStats.speed}</strong>
-          </Typography>
-        }
       </Grid>
 
       <Grid item xs={12} sm={6}>
@@ -52,14 +51,8 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
           disabled={answered}
           onClick={onClick}
         >
-          <PokemonView pokemon={rhs} />
+          <PokemonView pokemon={rhs} answered={answered} />
         </Button>
-
-        {answered &&
-          <Typography align="center">
-            種族値: <strong>{rhs.baseStats.speed}</strong>
-          </Typography>
-        }
       </Grid>
 
       {!answered &&
@@ -78,7 +71,7 @@ function App() {
   const rhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
   return (
     <Container maxWidth="xl">
-      <h1>速いのは?</h1>
+      <h1>どちらが大きい?</h1>
       <QuizForm lhs={lhs} rhs={rhs} />
     </Container>
   );
