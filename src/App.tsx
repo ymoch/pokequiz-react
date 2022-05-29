@@ -10,6 +10,28 @@ function selectPokemon(): Pokemon {
   return pokemons[index];
 };
 
+function isSamePokemon(lhs: Pokemon, rhs: Pokemon) {
+  if (lhs.name.ja !== rhs.name.ja) {
+    return false;
+  }
+  if (lhs.form === null) {
+    return rhs.form === null;
+  }
+  if (rhs.form === null) {
+    return false;
+  }
+  return lhs.form.ja === rhs.form.ja;
+}
+
+function selectPokemonPair(): [Pokemon, Pokemon] {
+  const lhs = selectPokemon();
+  let rhs = selectPokemon();
+  while (isSamePokemon(lhs, rhs)) {
+    rhs = selectPokemon();
+  }
+  return [lhs, rhs];
+}
+
 type Color = 'primary' | 'success' | 'error';
 function selectBaseColor(answered: boolean, correct: boolean): Color {
   if (!answered) {
@@ -64,15 +86,17 @@ function PokemonQuiz() {
     return (lhs: number, rhs: number): boolean => (lhs === rhs);
   };
 
-  const [lhs, setLhs] = React.useState(selectPokemon());
-  const [rhs, setRhs] = React.useState(selectPokemon());
-
   const [answered, setAnswered] = React.useState(false);
   const [correct, setCorrect] = React.useState(false);
 
+  const [initialLhs, initialRhs] = selectPokemonPair();
+  const [lhs, setLhs] = React.useState<Pokemon>(initialLhs);
+  const [rhs, setRhs] = React.useState<Pokemon>(initialRhs);
+
   const initialize = () => {
-    setLhs(selectPokemon());
-    setRhs(selectPokemon());
+    const [newLhs, newRhs] = selectPokemonPair();
+    setLhs(newLhs);
+    setRhs(newRhs);
     setAnswered(false);
   };
 
