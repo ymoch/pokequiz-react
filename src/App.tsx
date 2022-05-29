@@ -5,6 +5,11 @@ import Pokemon from './models/pokemon';
 
 import pokemons from './resources/pokemon.json';
 
+function selectPokemon(): Pokemon {
+  const index = Math.floor(Math.random() * pokemons.length);
+  return pokemons[index];
+};
+
 function PokemonView(
     {pokemon, answered}: {pokemon: Pokemon, answered: boolean},
 ) {
@@ -24,7 +29,7 @@ function PokemonView(
   );
 }
 
-function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
+function PokemonQuiz({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
   const [answered, setAnswered] = React.useState(false);
 
   const onClick = () => {
@@ -67,12 +72,12 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
 }
 
 function App() {
-  const lhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
-  const rhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
+  const lhs: Pokemon = selectPokemon();
+  const rhs: Pokemon = selectPokemon();
   return (
     <Container maxWidth="xl">
       <h1>どちらが大きい?</h1>
-      <QuizForm lhs={lhs} rhs={rhs} />
+      <PokemonQuiz lhs={lhs} rhs={rhs} />
     </Container>
   );
 }
