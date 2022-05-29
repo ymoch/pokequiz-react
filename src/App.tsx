@@ -10,29 +10,65 @@ function selectPokemon(): Pokemon {
   return pokemons[index];
 };
 
-function PokemonView(
-    {pokemon, answered}: {pokemon: Pokemon, answered: boolean},
+type Color = 'primary' | 'success' | 'error';
+function selectBaseColor(answered: boolean, correct: boolean): Color {
+  if (!answered) {
+    return 'primary';
+  }
+  return correct ? 'success' : 'error';
+}
+
+function PokemonCandidate(
+    {pokemon, answered, correct, onClick}: {
+      pokemon: Pokemon,
+      answered: boolean,
+      correct: boolean,
+      onClick: () => any,
+    },
 ) {
+  const color = selectBaseColor(answered, correct);
   return (
-    <Container disableGutters>
-      <Typography align="center" variant="h5" color="primary">
-        すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
-      </Typography>
-      <Typography align="center">
-        <img src={pokemon.sprite} width={96} height={96} />
-      </Typography>
-      <Typography align="center" variant="caption">
-        {pokemon.name.ja}
-        {pokemon.form && <small>({pokemon.form.ja})</small>}
-      </Typography>
-    </Container>
+    <Button
+      fullWidth
+      size="large"
+      variant="outlined"
+      color={color}
+      disableRipple={answered}
+      onClick={onClick}
+    >
+      <div>
+        <Typography align="center" variant="h5" color={color}>
+          すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
+        </Typography>
+        <Typography align="center">
+          <img src={pokemon.sprite} width={96} height={96} />
+        </Typography>
+        <Typography align="center" variant="caption">
+          {pokemon.name.ja}
+          {pokemon.form && <small>({pokemon.form.ja})</small>}
+        </Typography>
+      </div>
+    </Button>
   );
 }
 
 function PokemonQuiz() {
+  type Choice = 'lt' | 'eq' | 'gt';
+  const selectComparator = (choice: Choice) => {
+    if (choice === 'lt') {
+      return (lhs: number, rhs: number): boolean => (lhs < rhs);
+    }
+    if (choice === 'gt') {
+      return (lhs: number, rhs: number): boolean => (lhs > rhs);
+    }
+    return (lhs: number, rhs: number): boolean => (lhs === rhs);
+  };
+
   const [lhs, setLhs] = React.useState(selectPokemon());
   const [rhs, setRhs] = React.useState(selectPokemon());
+
   const [answered, setAnswered] = React.useState(false);
+  const [correct, setCorrect] = React.useState(false);
 
   const initialize = () => {
     setLhs(selectPokemon());
@@ -40,9 +76,16 @@ function PokemonQuiz() {
     setAnswered(false);
   };
 
-  const answer = () => {
+  const answer = (choice: Choice) => {
+    if (answered) {
+      return;
+    }
+
+    const compare = selectComparator(choice);
+    setCorrect(compare(lhs.baseStats.speed, rhs.baseStats.speed));
     setAnswered(true);
   };
+
 
   return (
     <Grid container spacing={2}>
@@ -50,44 +93,34 @@ function PokemonQuiz() {
         <h1>どちらが大きい?</h1>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button
-          fullWidth
-          variant="outlined"
-          disabled={answered}
-          onClick={answer}
-        >
-          <PokemonView pokemon={lhs} answered={answered}/>
-        </Button>
+        <PokemonCandidate
+          pokemon={lhs}
+          answered={answered}
+          correct={correct}
+          onClick={() => answer('gt')}
+        />
       </Grid>
 
       <Grid item xs={12} sm={6}>
-        <Button
-          fullWidth
-          variant="outlined"
-          disabled={answered}
-          onClick={answer}
-        >
-          <PokemonView pokemon={rhs} answered={answered} />
-        </Button>
+        <PokemonCandidate
+          pokemon={rhs}
+          answered={answered}
+          correct={correct}
+          onClick={() => answer('lt')}
+        />
       </Grid>
 
-      {answered?
-        <Grid item xs={12}>
-          <Button
-            fullWidth
-            variant="contained"
-            size="large"
-            onClick={initialize}
-          >
-            <Typography align="center">次の問題</Typography>
-          </Button>
-        </Grid> :
-        <Grid item xs={12}>
-          <Button fullWidth variant="outlined" size="large" onClick={answer}>
-            <Typography align="center">同じ</Typography>
-          </Button>
-        </Grid>
-      }
+      <Grid item xs={12}>
+        <Button
+          fullWidth
+          variant={answered ? 'contained' : 'outlined'}
+          size="large"
+          color={answered ? 'info' : 'primary'}
+          onClick={answered ? initialize : () => answer('eq')}
+        >
+          {answered ? '次の問題' : '同じ'}
+        </Button>
+      </Grid>
     </Grid>
   );
 }
