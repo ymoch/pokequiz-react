@@ -5,11 +5,6 @@ import Pokemon from './models/pokemon';
 
 import pokemons from './resources/pokemon.json';
 
-function selectPokemon(): Pokemon {
-  const index = Math.floor(Math.random() * pokemons.length);
-  return pokemons[index];
-};
-
 function isSamePokemon(lhs: Pokemon, rhs: Pokemon) {
   if (lhs.name.ja !== rhs.name.ja) {
     return false;
@@ -22,6 +17,11 @@ function isSamePokemon(lhs: Pokemon, rhs: Pokemon) {
   }
   return lhs.form.ja === rhs.form.ja;
 }
+
+function selectPokemon(): Pokemon {
+  const index = Math.floor(Math.random() * pokemons.length);
+  return pokemons[index];
+};
 
 function selectPokemonPair(): [Pokemon, Pokemon] {
   const lhs = selectPokemon();
@@ -86,12 +86,11 @@ function PokemonQuiz() {
     return (lhs: number, rhs: number): boolean => (lhs === rhs);
   };
 
-  const [answered, setAnswered] = React.useState(false);
-  const [correct, setCorrect] = React.useState(false);
-
   const [initialLhs, initialRhs] = selectPokemonPair();
   const [lhs, setLhs] = React.useState<Pokemon>(initialLhs);
   const [rhs, setRhs] = React.useState<Pokemon>(initialRhs);
+  const [answered, setAnswered] = React.useState(false);
+  const [correct, setCorrect] = React.useState(false);
 
   const initialize = () => {
     const [newLhs, newRhs] = selectPokemonPair();
