@@ -41,6 +41,6 @@ def main():
         key=lambda rank_match: rank_match.season,
     )
 
-    ranks = fetch_pokemon_ranking(target) 
+    ranks = fetch_pokemon_ranking(target)
     models = [rank_to_model(rank) for rank in ranks]
     json.dump(models, sys.stdout, ensure_ascii=False, indent=2)
