@@ -2,6 +2,8 @@ import itertools
 import json
 import sys
 
+from tqdm import tqdm
+
 from .pokeapi import fetch_species, fetch_pokemon, fetch_form
 from .pokemon_home import fetch_rank_matches, fetch_pokemon_ranking
 
@@ -10,28 +12,39 @@ def nth(iterable, n):
     return next(itertools.islice(iterable, n, None))
 
 
-def rank_to_model(rank):
+def rank_to_models(rank):
     species = fetch_species(str(rank.id))
 
-    variety = nth(species.varieties, rank.form)
-    if variety == "zacian":
-        variety = "zacian-crowned"
+    primary_target = nth(species.varieties, rank.form)
+    targets = [primary_target]
+    if primary_target == "zacian":
+        targets.append("zacian-crowned")
+    elif primary_target == "zamazenta":
+        targets.append("zamazenta-crowned")
+    elif primary_target.startswith("zygarde-"):
+        # HACK Zygarde can be redundant when both 50% and 10% appears.
+        targets = ["zygarde-10", "zygarde-50", "zygarder-complete"]
 
-    pokemon = fetch_pokemon(variety)
-    form = fetch_form(pokemon.forms[0])
-    return {
-        "name": {"ja": species.name.ja},
-        "form": {"ja": form.name.ja} if form.name else None,
-        "baseStats": {
-            "hp": pokemon.base_stats.hp,
-            "attack": pokemon.base_stats.attack,
-            "defense": pokemon.base_stats.defense,
-            "specialAttack": pokemon.base_stats.special_attack,
-            "specialDefense": pokemon.base_stats.special_defense,
-            "speed": pokemon.base_stats.speed,
-        },
-        "sprite": pokemon.sprite,
-    }
+    for target in targets:
+        pokemon = fetch_pokemon(target)
+
+        form = None
+        if pokemon.forms[0] == pokemon.key and not pokemon.key.startswith("mimikyu-"):
+            form = fetch_form(pokemon.forms[0])
+
+        yield {
+            "name": {"ja": species.name.ja},
+            "form": {"ja": form.name.ja} if form and form.name else None,
+            "baseStats": {
+                "hp": pokemon.base_stats.hp,
+                "attack": pokemon.base_stats.attack,
+                "defense": pokemon.base_stats.defense,
+                "specialAttack": pokemon.base_stats.special_attack,
+                "specialDefense": pokemon.base_stats.special_defense,
+                "speed": pokemon.base_stats.speed,
+            },
+            "sprite": pokemon.sprite,
+        }
 
 
 def main():
@@ -42,5 +55,7 @@ def main():
     )
 
     ranks = fetch_pokemon_ranking(target)
-    models = [rank_to_model(rank) for rank in ranks]
+    models = list(
+        itertools.chain.from_iterable(rank_to_models(rank) for rank in tqdm(ranks))
+    )
     json.dump(models, sys.stdout, ensure_ascii=False, indent=2)

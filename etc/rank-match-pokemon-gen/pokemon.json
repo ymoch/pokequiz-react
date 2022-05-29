@@ -1,0 +1,2308 @@
+[
+  {
+    "name": {
+      "ja": "ザシアン"
+    },
+    "form": {
+      "ja": "けんのおう"
+    },
+    "baseStats": {
+      "hp": 92,
+      "attack": 170,
+      "defense": 115,
+      "specialAttack": 80,
+      "specialDefense": 115,
+      "speed": 148
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png"
+  },
+  {
+    "name": {
+      "ja": "サンダー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 90,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+  },
+  {
+    "name": {
+      "ja": "ランドロス"
+    },
+    "form": {
+      "ja": "れいじゅうフォルム"
+    },
+    "baseStats": {
+      "hp": 89,
+      "attack": 145,
+      "defense": 90,
+      "specialAttack": 105,
+      "specialDefense": 80,
+      "speed": 91
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png"
+  },
+  {
+    "name": {
+      "ja": "メタモン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+  },
+  {
+    "name": {
+      "ja": "カイオーガ"
+    },
+    "form": {
+      "ja": "カイオーガのすがた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 150,
+      "specialDefense": 140,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
+  },
+  {
+    "name": {
+      "ja": "バドレックス"
+    },
+    "form": {
+      "ja": "こくばじょうのすがた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 85,
+      "defense": 80,
+      "specialAttack": 165,
+      "specialDefense": 100,
+      "speed": 150
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png"
+  },
+  {
+    "name": {
+      "ja": "ポリゴン２"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 105,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
+  },
+  {
+    "name": {
+      "ja": "イベルタル"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "specialAttack": 131,
+      "specialDefense": 98,
+      "speed": 99
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
+  },
+  {
+    "name": {
+      "ja": "バンギラス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "specialAttack": 95,
+      "specialDefense": 100,
+      "speed": 61
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
+  },
+  {
+    "name": {
+      "ja": "ヌオー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 85,
+      "defense": 85,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
+  },
+  {
+    "name": {
+      "ja": "ナットレイ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 74,
+      "attack": 94,
+      "defense": 131,
+      "specialAttack": 54,
+      "specialDefense": 116,
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
+  },
+  {
+    "name": {
+      "ja": "ネクロズマ"
+    },
+    "form": {
+      "ja": "たそがれのたてがみ"
+    },
+    "baseStats": {
+      "hp": 97,
+      "attack": 157,
+      "defense": 127,
+      "specialAttack": 113,
+      "specialDefense": 109,
+      "speed": 77
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png"
+  },
+  {
+    "name": {
+      "ja": "エースバーン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 116,
+      "defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 75,
+      "speed": 119
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png"
+  },
+  {
+    "name": {
+      "ja": "ガマゲロゲ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 75,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 74
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
+  },
+  {
+    "name": {
+      "ja": "ミミッキュ"
+    },
+    "form": {
+      "ja": "ばけたすがた"
+    },
+    "baseStats": {
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "specialAttack": 50,
+      "specialDefense": 105,
+      "speed": 96
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
+  },
+  {
+    "name": {
+      "ja": "ホウオウ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 106,
+      "attack": 130,
+      "defense": 90,
+      "specialAttack": 110,
+      "specialDefense": 154,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png"
+  },
+  {
+    "name": {
+      "ja": "ウーラオス"
+    },
+    "form": {
+      "ja": "いちげきのかた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "specialAttack": 63,
+      "specialDefense": 60,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
+  },
+  {
+    "name": {
+      "ja": "ムゲンダイナ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 140,
+      "attack": 85,
+      "defense": 95,
+      "specialAttack": 145,
+      "specialDefense": 95,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png"
+  },
+  {
+    "name": {
+      "ja": "ラッキー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "specialAttack": 35,
+      "specialDefense": 105,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+  },
+  {
+    "name": {
+      "ja": "カバルドン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "specialAttack": 68,
+      "specialDefense": 72,
+      "speed": 47
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
+  },
+  {
+    "name": {
+      "ja": "トリトドン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 111,
+      "attack": 83,
+      "defense": 68,
+      "specialAttack": 92,
+      "specialDefense": 82,
+      "speed": 39
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
+  },
+  {
+    "name": {
+      "ja": "ゼルネアス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 126,
+      "attack": 131,
+      "defense": 95,
+      "specialAttack": 131,
+      "specialDefense": 98,
+      "speed": 99
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
+  },
+  {
+    "name": {
+      "ja": "オーロンゲ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "specialAttack": 95,
+      "specialDefense": 75,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
+  },
+  {
+    "name": {
+      "ja": "ゼクロム"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 120,
+      "specialAttack": 120,
+      "specialDefense": 100,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
+  },
+  {
+    "name": {
+      "ja": "ガオガエン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "specialAttack": 80,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
+  },
+  {
+    "name": {
+      "ja": "ウーラオス"
+    },
+    "form": {
+      "ja": "れんげきのかた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 130,
+      "defense": 100,
+      "specialAttack": 63,
+      "specialDefense": 60,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png"
+  },
+  {
+    "name": {
+      "ja": "レジエレキ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 50,
+      "specialAttack": 100,
+      "specialDefense": 50,
+      "speed": 200
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png"
+  },
+  {
+    "name": {
+      "ja": "マンムー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 60,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
+  },
+  {
+    "name": {
+      "ja": "ディアルガ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 120,
+      "specialAttack": 150,
+      "specialDefense": 100,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
+  },
+  {
+    "name": {
+      "ja": "キュレム"
+    },
+    "form": {
+      "ja": "ブラックキュレム"
+    },
+    "baseStats": {
+      "hp": 125,
+      "attack": 170,
+      "defense": 100,
+      "specialAttack": 120,
+      "specialDefense": 90,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png"
+  },
+  {
+    "name": {
+      "ja": "テッカグヤ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 97,
+      "attack": 101,
+      "defense": 103,
+      "specialAttack": 107,
+      "specialDefense": 101,
+      "speed": 61
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png"
+  },
+  {
+    "name": {
+      "ja": "ウオノラゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 100,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png"
+  },
+  {
+    "name": {
+      "ja": "ラグラージ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 85,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・レヒレ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 115,
+      "specialAttack": 95,
+      "specialDefense": 130,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png"
+  },
+  {
+    "name": {
+      "ja": "ヒヒダルマ"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "hp": 105,
+      "attack": 140,
+      "defense": 55,
+      "specialAttack": 30,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png"
+  },
+  {
+    "name": {
+      "ja": "ドラパルト"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "specialAttack": 100,
+      "specialDefense": 75,
+      "speed": 142
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png"
+  },
+  {
+    "name": {
+      "ja": "ゴリランダー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 125,
+      "defense": 90,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
+  },
+  {
+    "name": {
+      "ja": "ジガルデ"
+    },
+    "form": {
+      "ja": "パーフェクトフォルム"
+    },
+    "baseStats": {
+      "hp": 216,
+      "attack": 100,
+      "defense": 121,
+      "specialAttack": 91,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png"
+  },
+  {
+    "name": {
+      "ja": "ガブリアス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "specialAttack": 80,
+      "specialDefense": 85,
+      "speed": 102
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
+  },
+  {
+    "name": {
+      "ja": "ヌケニン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 1,
+      "attack": 90,
+      "defense": 45,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
+  },
+  {
+    "name": {
+      "ja": "ブラッキー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "specialAttack": 60,
+      "specialDefense": 130,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
+  },
+  {
+    "name": {
+      "ja": "ラプラス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+  },
+  {
+    "name": {
+      "ja": "グラードン"
+    },
+    "form": {
+      "ja": "グラードンのすがた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 140,
+      "specialAttack": 100,
+      "specialDefense": 90,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
+  },
+  {
+    "name": {
+      "ja": "ルギア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 106,
+      "attack": 90,
+      "defense": 130,
+      "specialAttack": 90,
+      "specialDefense": 154,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png"
+  },
+  {
+    "name": {
+      "ja": "ハピナス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "specialAttack": 75,
+      "specialDefense": 135,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
+  },
+  {
+    "name": {
+      "ja": "エルフーン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 67,
+      "defense": 85,
+      "specialAttack": 77,
+      "specialDefense": 75,
+      "speed": 116
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
+  },
+  {
+    "name": {
+      "ja": "バドレックス"
+    },
+    "form": {
+      "ja": "はくばじょうのすがた"
+    },
+    "baseStats": {
+      "hp": 100,
+      "attack": 165,
+      "defense": 150,
+      "specialAttack": 85,
+      "specialDefense": 130,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png"
+  },
+  {
+    "name": {
+      "ja": "レシラム"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 120,
+      "defense": 100,
+      "specialAttack": 150,
+      "specialDefense": 120,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
+  },
+  {
+    "name": {
+      "ja": "バシャーモ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "specialAttack": 110,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
+  },
+  {
+    "name": {
+      "ja": "フェローチェ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 71,
+      "attack": 137,
+      "defense": 37,
+      "specialAttack": 137,
+      "specialDefense": 37,
+      "speed": 151
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png"
+  },
+  {
+    "name": {
+      "ja": "ロトム"
+    },
+    "form": {
+      "ja": "ウォッシュロトム"
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "specialAttack": 105,
+      "specialDefense": 107,
+      "speed": 86
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png"
+  },
+  {
+    "name": {
+      "ja": "ゴチルゼル"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 110,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
+  },
+  {
+    "name": {
+      "ja": "ファイヤー"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 90,
+      "specialAttack": 100,
+      "specialDefense": 125,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png"
+  },
+  {
+    "name": {
+      "ja": "カイリュー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+  },
+  {
+    "name": {
+      "ja": "カミツルギ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 59,
+      "attack": 181,
+      "defense": 131,
+      "specialAttack": 59,
+      "specialDefense": 31,
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png"
+  },
+  {
+    "name": {
+      "ja": "ドリュウズ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 110,
+      "attack": 135,
+      "defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 65,
+      "speed": 88
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
+  },
+  {
+    "name": {
+      "ja": "ロトム"
+    },
+    "form": {
+      "ja": "ヒートロトム"
+    },
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "specialAttack": 105,
+      "specialDefense": 107,
+      "speed": 86
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png"
+  },
+  {
+    "name": {
+      "ja": "ミュウツー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 154,
+      "specialDefense": 90,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+  },
+  {
+    "name": {
+      "ja": "キュウコン"
+    },
+    "form": {
+      "ja": "アローラのすがた"
+    },
+    "baseStats": {
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "specialAttack": 81,
+      "specialDefense": 100,
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png"
+  },
+  {
+    "name": {
+      "ja": "キュレム"
+    },
+    "form": {
+      "ja": "ホワイトキュレム"
+    },
+    "baseStats": {
+      "hp": 125,
+      "attack": 120,
+      "defense": 90,
+      "specialAttack": 170,
+      "specialDefense": 100,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png"
+  },
+  {
+    "name": {
+      "ja": "ヒードラン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 91,
+      "attack": 90,
+      "defense": 106,
+      "specialAttack": 130,
+      "specialDefense": 106,
+      "speed": 77
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
+  },
+  {
+    "name": {
+      "ja": "ナマコブシ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 55,
+      "attack": 60,
+      "defense": 130,
+      "specialAttack": 30,
+      "specialDefense": 130,
+      "speed": 5
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
+  },
+  {
+    "name": {
+      "ja": "エレザード"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 62,
+      "attack": 55,
+      "defense": 52,
+      "specialAttack": 109,
+      "specialDefense": 94,
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
+  },
+  {
+    "name": {
+      "ja": "リザードン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+  },
+  {
+    "name": {
+      "ja": "レックウザ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 105,
+      "attack": 150,
+      "defense": 90,
+      "specialAttack": 150,
+      "specialDefense": 90,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png"
+  },
+  {
+    "name": {
+      "ja": "エアームド"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
+  },
+  {
+    "name": {
+      "ja": "ウインディ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・コケコ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 85,
+      "specialAttack": 95,
+      "specialDefense": 75,
+      "speed": 130
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png"
+  },
+  {
+    "name": {
+      "ja": "ドサイドン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 115,
+      "attack": 140,
+      "defense": 130,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 40
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
+  },
+  {
+    "name": {
+      "ja": "ウルガモス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 85,
+      "attack": 60,
+      "defense": 65,
+      "specialAttack": 135,
+      "specialDefense": 105,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
+  },
+  {
+    "name": {
+      "ja": "ドヒドイデ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "specialAttack": 53,
+      "specialDefense": 142,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
+  },
+  {
+    "name": {
+      "ja": "ルナアーラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 137,
+      "attack": 113,
+      "defense": 89,
+      "specialAttack": 137,
+      "specialDefense": 107,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
+  },
+  {
+    "name": {
+      "ja": "ボルトロス"
+    },
+    "form": {
+      "ja": "けしんフォルム"
+    },
+    "baseStats": {
+      "hp": 79,
+      "attack": 115,
+      "defense": 70,
+      "specialAttack": 125,
+      "specialDefense": 80,
+      "speed": 111
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png"
+  },
+  {
+    "name": {
+      "ja": "パルキア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 100,
+      "specialAttack": 150,
+      "specialDefense": 120,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
+  },
+  {
+    "name": {
+      "ja": "アシレーヌ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "specialAttack": 126,
+      "specialDefense": 116,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
+  },
+  {
+    "name": {
+      "ja": "ウツロイド"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 109,
+      "attack": 53,
+      "defense": 47,
+      "specialAttack": 127,
+      "specialDefense": 131,
+      "speed": 103
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png"
+  },
+  {
+    "name": {
+      "ja": "メタグロス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
+  },
+  {
+    "name": {
+      "ja": "ボーマンダ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
+  },
+  {
+    "name": {
+      "ja": "ソルガレオ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 137,
+      "attack": 137,
+      "defense": 107,
+      "specialAttack": 113,
+      "specialDefense": 89,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
+  },
+  {
+    "name": {
+      "ja": "スイクン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 75,
+      "defense": 115,
+      "specialAttack": 90,
+      "specialDefense": 115,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png"
+  },
+  {
+    "name": {
+      "ja": "シャンデラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 90,
+      "specialAttack": 145,
+      "specialDefense": 90,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
+  },
+  {
+    "name": {
+      "ja": "アーマーガア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "specialAttack": 53,
+      "specialDefense": 85,
+      "speed": 67
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
+  },
+  {
+    "name": {
+      "ja": "クレッフィ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "specialAttack": 80,
+      "specialDefense": 87,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
+  },
+  {
+    "name": {
+      "ja": "カメックス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+  },
+  {
+    "name": {
+      "ja": "ギルガルド"
+    },
+    "form": {
+      "ja": "シールドフォルム"
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 140,
+      "specialAttack": 50,
+      "specialDefense": 140,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
+  },
+  {
+    "name": {
+      "ja": "クレセリア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 120,
+      "attack": 70,
+      "defense": 120,
+      "specialAttack": 75,
+      "specialDefense": 130,
+      "speed": 85
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
+  },
+  {
+    "name": {
+      "ja": "ゲンガー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 75,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+  },
+  {
+    "name": {
+      "ja": "サニーゴ"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 100,
+      "specialAttack": 65,
+      "specialDefense": 100,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png"
+  },
+  {
+    "name": {
+      "ja": "ギャラドス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "specialAttack": 60,
+      "specialDefense": 100,
+      "speed": 81
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+  },
+  {
+    "name": {
+      "ja": "デンチュラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 77,
+      "defense": 60,
+      "specialAttack": 97,
+      "specialDefense": 60,
+      "speed": 108
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
+  },
+  {
+    "name": {
+      "ja": "ハッサム"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
+  },
+  {
+    "name": {
+      "ja": "ギラティナ"
+    },
+    "form": {
+      "ja": "オリジンフォルム"
+    },
+    "baseStats": {
+      "hp": 150,
+      "attack": 120,
+      "defense": 100,
+      "specialAttack": 120,
+      "specialDefense": 100,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png"
+  },
+  {
+    "name": {
+      "ja": "ファイヤー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 85,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+  },
+  {
+    "name": {
+      "ja": "コータス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 20
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
+  },
+  {
+    "name": {
+      "ja": "ブリムオン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "specialAttack": 136,
+      "specialDefense": 103,
+      "speed": 29
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
+  },
+  {
+    "name": {
+      "ja": "ジバコイル"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 115,
+      "specialAttack": 130,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
+  },
+  {
+    "name": {
+      "ja": "ホルード"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 85,
+      "attack": 56,
+      "defense": 77,
+      "specialAttack": 50,
+      "specialDefense": 77,
+      "speed": 78
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・ブルル"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 115,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png"
+  },
+  {
+    "name": {
+      "ja": "マリルリ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 100,
+      "attack": 50,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 80,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
+  },
+  {
+    "name": {
+      "ja": "パッチラゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 80,
+      "specialDefense": 70,
+      "speed": 75
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png"
+  },
+  {
+    "name": {
+      "ja": "ペロリーム"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 82,
+      "attack": 80,
+      "defense": 86,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 72
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
+  },
+  {
+    "name": {
+      "ja": "カビゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 110,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+  },
+  {
+    "name": {
+      "ja": "ルカリオ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "specialAttack": 115,
+      "specialDefense": 70,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
+  },
+  {
+    "name": {
+      "ja": "マニューラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "specialAttack": 45,
+      "specialDefense": 85,
+      "speed": 125
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
+  },
+  {
+    "name": {
+      "ja": "ミロカロス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "specialAttack": 100,
+      "specialDefense": 125,
+      "speed": 81
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
+  },
+  {
+    "name": {
+      "ja": "ラティオス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 90,
+      "defense": 80,
+      "specialAttack": 130,
+      "specialDefense": 110,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png"
+  },
+  {
+    "name": {
+      "ja": "ザマゼンタ"
+    },
+    "form": {
+      "ja": "れきせんのゆうしゃ"
+    },
+    "baseStats": {
+      "hp": 92,
+      "attack": 130,
+      "defense": 115,
+      "specialAttack": 80,
+      "specialDefense": 115,
+      "speed": 138
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png"
+  },
+  {
+    "name": {
+      "ja": "ニンフィア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 110,
+      "specialDefense": 130,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
+  },
+  {
+    "name": {
+      "ja": "ツボツボ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 230,
+      "specialAttack": 10,
+      "specialDefense": 230,
+      "speed": 5
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
+  },
+  {
+    "name": {
+      "ja": "ボルトロス"
+    },
+    "form": {
+      "ja": "れいじゅうフォルム"
+    },
+    "baseStats": {
+      "hp": 79,
+      "attack": 105,
+      "defense": 70,
+      "specialAttack": 145,
+      "specialDefense": 80,
+      "speed": 101
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png"
+  },
+  {
+    "name": {
+      "ja": "パルシェン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "specialAttack": 85,
+      "specialDefense": 45,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+  },
+  {
+    "name": {
+      "ja": "カプ・テテフ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 75,
+      "specialAttack": 130,
+      "specialDefense": 115,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
+  },
+  {
+    "name": {
+      "ja": "サンダー"
+    },
+    "form": {
+      "ja": "ガラルのすがた"
+    },
+    "baseStats": {
+      "hp": 90,
+      "attack": 125,
+      "defense": 90,
+      "specialAttack": 85,
+      "specialDefense": 90,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png"
+  },
+  {
+    "name": {
+      "ja": "ガラガラ"
+    },
+    "form": {
+      "ja": "アローラのすがた"
+    },
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "specialAttack": 50,
+      "specialDefense": 80,
+      "speed": 45
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png"
+  },
+  {
+    "name": {
+      "ja": "ゾロアーク"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 105,
+      "defense": 60,
+      "specialAttack": 120,
+      "specialDefense": 60,
+      "speed": 105
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
+  },
+  {
+    "name": {
+      "ja": "ズガドーン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 53,
+      "attack": 127,
+      "defense": 53,
+      "specialAttack": 151,
+      "specialDefense": 79,
+      "speed": 107
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png"
+  },
+  {
+    "name": {
+      "ja": "ユクシー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 130,
+      "specialAttack": 75,
+      "specialDefense": 130,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
+  },
+  {
+    "name": {
+      "ja": "ランターン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 125,
+      "attack": 58,
+      "defense": 58,
+      "specialAttack": 76,
+      "specialDefense": 76,
+      "speed": 67
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
+  },
+  {
+    "name": {
+      "ja": "ペンドラー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 100,
+      "defense": 89,
+      "specialAttack": 55,
+      "specialDefense": 69,
+      "speed": 112
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
+  },
+  {
+    "name": {
+      "ja": "バタフリー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+  },
+  {
+    "name": {
+      "ja": "ポットデス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 134,
+      "specialDefense": 114,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
+  },
+  {
+    "name": {
+      "ja": "デンジュモク"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 83,
+      "attack": 89,
+      "defense": 71,
+      "specialAttack": 173,
+      "specialDefense": 71,
+      "speed": 83
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png"
+  },
+  {
+    "name": {
+      "ja": "エーフィ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
+  },
+  {
+    "name": {
+      "ja": "チラチーノ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 60,
+      "specialAttack": 65,
+      "specialDefense": 60,
+      "speed": 115
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
+  },
+  {
+    "name": {
+      "ja": "トゲキッス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 85,
+      "attack": 50,
+      "defense": 95,
+      "specialAttack": 120,
+      "specialDefense": 115,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
+  },
+  {
+    "name": {
+      "ja": "エンテイ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 115,
+      "attack": 115,
+      "defense": 85,
+      "specialAttack": 90,
+      "specialDefense": 75,
+      "speed": 100
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png"
+  },
+  {
+    "name": {
+      "ja": "アイアント"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 58,
+      "attack": 109,
+      "defense": 112,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 109
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
+  },
+  {
+    "name": {
+      "ja": "ギラティナ"
+    },
+    "form": {
+      "ja": "アナザーフォルム"
+    },
+    "baseStats": {
+      "hp": 150,
+      "attack": 100,
+      "defense": 120,
+      "specialAttack": 100,
+      "specialDefense": 120,
+      "speed": 90
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
+  },
+  {
+    "name": {
+      "ja": "インテレオン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "specialAttack": 125,
+      "specialDefense": 65,
+      "speed": 120
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png"
+  },
+  {
+    "name": {
+      "ja": "タチフサグマ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 93,
+      "attack": 90,
+      "defense": 101,
+      "specialAttack": 60,
+      "specialDefense": 81,
+      "speed": 95
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png"
+  },
+  {
+    "name": {
+      "ja": "バイウールー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 72,
+      "attack": 80,
+      "defense": 100,
+      "specialAttack": 60,
+      "specialDefense": 90,
+      "speed": 88
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png"
+  },
+  {
+    "name": {
+      "ja": "ラティアス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 110,
+      "specialDefense": 130,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png"
+  },
+  {
+    "name": {
+      "ja": "ボスゴドラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 180,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
+  },
+  {
+    "name": {
+      "ja": "ヌメルゴン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 70,
+      "specialAttack": 110,
+      "specialDefense": 150,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
+  },
+  {
+    "name": {
+      "ja": "フシギバナ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+  },
+  {
+    "name": {
+      "ja": "サザンドラ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 90,
+      "speed": 98
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
+  },
+  {
+    "name": {
+      "ja": "アギルダー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 40,
+      "specialAttack": 100,
+      "specialDefense": 60,
+      "speed": 145
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
+  },
+  {
+    "name": {
+      "ja": "サーナイト"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 125,
+      "specialDefense": 115,
+      "speed": 80
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
+  },
+  {
+    "name": {
+      "ja": "マッギョ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 109,
+      "attack": 66,
+      "defense": 84,
+      "specialAttack": 81,
+      "specialDefense": 99,
+      "speed": 32
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
+  },
+  {
+    "name": {
+      "ja": "ルガルガン"
+    },
+    "form": {
+      "ja": "たそがれのすがた"
+    },
+    "baseStats": {
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 110
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png"
+  },
+  {
+    "name": {
+      "ja": "オノノクス"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 76,
+      "attack": 147,
+      "defense": 90,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 97
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
+  },
+  {
+    "name": {
+      "ja": "ハガネール"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
+  },
+  {
+    "name": {
+      "ja": "シザリガー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 63,
+      "attack": 120,
+      "defense": 85,
+      "specialAttack": 90,
+      "specialDefense": 55,
+      "speed": 55
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
+  },
+  {
+    "name": {
+      "ja": "ルンパッパ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
+  },
+  {
+    "name": {
+      "ja": "ニダンギル"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 59,
+      "attack": 110,
+      "defense": 150,
+      "specialAttack": 45,
+      "specialDefense": 49,
+      "speed": 35
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
+  },
+  {
+    "name": {
+      "ja": "クレベース"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 117,
+      "defense": 184,
+      "specialAttack": 44,
+      "specialDefense": 46,
+      "speed": 28
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
+  },
+  {
+    "name": {
+      "ja": "グレイシア"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "specialAttack": 130,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
+  },
+  {
+    "name": {
+      "ja": "ピクシー"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+  },
+  {
+    "name": {
+      "ja": "ドータクン"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 67,
+      "attack": 89,
+      "defense": 116,
+      "specialAttack": 79,
+      "specialDefense": 116,
+      "speed": 33
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png"
+  },
+  {
+    "name": {
+      "ja": "ヤミラミ"
+    },
+    "form": null,
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 50
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
+  }
+]
