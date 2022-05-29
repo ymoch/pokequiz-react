@@ -23,7 +23,7 @@ def rank_to_models(rank):
         targets.append("zamazenta-crowned")
     elif primary_target.startswith("zygarde-"):
         # HACK Zygarde can be redundant when both 50% and 10% appears.
-        targets = ["zygarde-10", "zygarde-50", "zygarder-complete"]
+        targets = ["zygarde-10", "zygarde-50", "zygarde-complete"]
 
     for target in targets:
         pokemon = fetch_pokemon(target)
