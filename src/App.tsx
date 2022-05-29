@@ -18,26 +18,37 @@ function selectBaseColor(answered: boolean, correct: boolean): Color {
   return correct ? 'success' : 'error';
 }
 
-function PokemonView(
-    {pokemon, answered, color}: {
+function PokemonCandidate(
+    {pokemon, answered, correct, onClick}: {
       pokemon: Pokemon,
       answered: boolean,
-      color: Color,
+      correct: boolean,
+      onClick: () => any,
     },
 ) {
+  const color = selectBaseColor(answered, correct);
   return (
-    <Container disableGutters>
-      <Typography align="center" variant="h5" color={color}>
-        すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
-      </Typography>
-      <Typography align="center">
-        <img src={pokemon.sprite} width={96} height={96} />
-      </Typography>
-      <Typography align="center" variant="caption">
-        {pokemon.name.ja}
-        {pokemon.form && <small>({pokemon.form.ja})</small>}
-      </Typography>
-    </Container>
+    <Button
+      fullWidth
+      size="large"
+      variant="outlined"
+      color={color}
+      disableRipple={answered}
+      onClick={onClick}
+    >
+      <div>
+        <Typography align="center" variant="h5" color={color}>
+          すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
+        </Typography>
+        <Typography align="center">
+          <img src={pokemon.sprite} width={96} height={96} />
+        </Typography>
+        <Typography align="center" variant="caption">
+          {pokemon.name.ja}
+          {pokemon.form && <small>({pokemon.form.ja})</small>}
+        </Typography>
+      </div>
+    </Button>
   );
 }
 
@@ -58,10 +69,6 @@ function PokemonQuiz() {
 
   const [answered, setAnswered] = React.useState(false);
   const [correct, setCorrect] = React.useState(false);
-  const [baseColor, setBaseColor] = React.useState<Color>('primary');
-  React.useEffect(() => {
-    setBaseColor(selectBaseColor(answered, correct));
-  }, [answered, correct]);
 
   const initialize = () => {
     setLhs(selectPokemon());
@@ -86,53 +93,34 @@ function PokemonQuiz() {
         <h1>どちらが大きい?</h1>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Button
-          fullWidth
-          variant="outlined"
-          color={baseColor}
-          disableRipple={answered}
+        <PokemonCandidate
+          pokemon={lhs}
+          answered={answered}
+          correct={correct}
           onClick={() => answer('gt')}
-        >
-          <PokemonView pokemon={lhs} answered={answered} color={baseColor} />
-        </Button>
+        />
       </Grid>
 
       <Grid item xs={12} sm={6}>
-        <Button
-          fullWidth
-          variant="outlined"
-          color={baseColor}
-          disableRipple={answered}
+        <PokemonCandidate
+          pokemon={rhs}
+          answered={answered}
+          correct={correct}
           onClick={() => answer('lt')}
-        >
-          <PokemonView pokemon={rhs} answered={answered} color={baseColor} />
-        </Button>
+        />
       </Grid>
 
-      {answered?
-        <Grid item xs={12}>
-          <Button
-            fullWidth
-            variant="contained"
-            size="large"
-            color={baseColor}
-            onClick={initialize}
-          >
-            次の問題
-          </Button>
-        </Grid> :
-        <Grid item xs={12}>
-          <Button
-            fullWidth
-            variant="outlined"
-            size="large"
-            color={baseColor}
-            onClick={() => answer('eq')}
-          >
-            <Typography align="center">同じ</Typography>
-          </Button>
-        </Grid>
-      }
+      <Grid item xs={12}>
+        <Button
+          fullWidth
+          variant={answered ? 'contained' : 'outlined'}
+          size="large"
+          color={answered ? 'info' : 'primary'}
+          onClick={answered ? initialize : () => answer('eq')}
+        >
+          {answered ? '次の問題' : '同じ'}
+        </Button>
+      </Grid>
     </Grid>
   );
 }
