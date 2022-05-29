@@ -1,15 +1,20 @@
 import requests
 from dataclasses import dataclass
-from typing import Iterator, List
+from typing import Iterable, Iterator, List
 from urllib.parse import quote
 
 _POKEAPI = "https://pokeapi.co"
 
 
 @dataclass
+class MultilingualName:
+    ja: str
+
+
+@dataclass
 class Species:
     key: str
-    name_ja: str
+    name: MultilingualName
     varieties: List[str]
 
 
@@ -23,6 +28,15 @@ class BaseStats:
     speed: int
 
 
+def to_multilingual_name(names: Iterable[dict]) -> MultilingualName:
+    return MultilingualName(
+        ja=next(
+            name["name"] for name in names
+            if name["language"]["name"] == "ja"
+        ),
+    )
+
+
 def fetch_species(id_or_name: str) -> Iterator[str]:
     endpoint = "/".join(
         (_POKEAPI, "api", "v2", "pokemon-species", quote(id_or_name))
@@ -34,10 +48,7 @@ def fetch_species(id_or_name: str) -> Iterator[str]:
     return (
         Species(
             key=data["name"],
-            name_ja=next(
-                name["name"] for name in data["names"]
-                if name["language"]["name"] == "ja"
-            ),
+            name=to_multilingual_name(data["names"]),
             varieties = [
                 variety["pokemon"]["name"]
                 for variety in data["varieties"]

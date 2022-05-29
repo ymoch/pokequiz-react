@@ -20,7 +20,7 @@ def rank_to_model(rank):
     pokemon = fetch_pokemon(variety)
     base_stats = pokemon["baseStats"]
     return {
-        "name": {"ja": species.name_ja},
+        "name": {"ja": species.name.ja},
         "form": (
             {"ja": pokemon["form_name_ja"]}
             if pokemon["form_name_ja"] else None
@@ -29,7 +29,7 @@ def rank_to_model(rank):
             "hp": base_stats.hp,
             "attack": base_stats.attack,
             "defense": base_stats.defense,
-            "specialAttack": base_stats.attack,
+            "specialAttack": base_stats.special_attack,
             "specialDefense": base_stats.special_defense,
             "speed": base_stats.speed,
         },
