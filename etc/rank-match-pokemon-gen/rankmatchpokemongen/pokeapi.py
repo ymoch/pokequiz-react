@@ -1,6 +1,6 @@
 import requests
 from dataclasses import dataclass
-from typing import Iterable, Iterator, List
+from typing import Iterable, Iterator, List, Optional
 from urllib.parse import quote
 
 _POKEAPI = "https://pokeapi.co"
@@ -9,13 +9,6 @@ _POKEAPI = "https://pokeapi.co"
 @dataclass
 class MultilingualName:
     ja: str
-
-
-@dataclass
-class Species:
-    key: str
-    name: MultilingualName
-    varieties: List[str]
 
 
 @dataclass
@@ -28,6 +21,27 @@ class BaseStats:
     speed: int
 
 
+@dataclass
+class Pokemon:
+    key: str
+    base_stats: BaseStats
+    sprite: str
+    forms: List[str]
+
+
+@dataclass
+class Species:
+    key: str
+    name: MultilingualName
+    varieties: List[str]
+
+
+@dataclass
+class Form:
+    key: str
+    name: Optional[MultilingualName]
+
+
 def to_multilingual_name(names: Iterable[dict]) -> MultilingualName:
     return MultilingualName(
         ja=next(
@@ -37,10 +51,8 @@ def to_multilingual_name(names: Iterable[dict]) -> MultilingualName:
     )
 
 
-def fetch_species(id_or_name: str) -> Iterator[str]:
-    endpoint = "/".join(
-        (_POKEAPI, "api", "v2", "pokemon-species", quote(id_or_name))
-    )
+def fetch_species(key: str) -> Iterator[str]:
+    endpoint = "/".join((_POKEAPI, "api", "v2", "pokemon-species", quote(key)))
     res = requests.get(endpoint)
     res.raise_for_status()
 
@@ -57,8 +69,8 @@ def fetch_species(id_or_name: str) -> Iterator[str]:
     )
 
 
-def fetch_pokemon(id_or_name: str):
-    endpoint = "/".join((_POKEAPI, "api", "v2", "pokemon", quote(id_or_name)))
+def fetch_pokemon(key: str) -> Pokemon:
+    endpoint = "/".join((_POKEAPI, "api", "v2", "pokemon", quote(key)))
     res = requests.get(endpoint)
     res.raise_for_status()
     pokemon = res.json()
@@ -77,24 +89,23 @@ def fetch_pokemon(id_or_name: str):
             "speed",
         )
     )
-    base_stats = BaseStats(*base_stat_values)
-    sprite = pokemon["sprites"]["front_default"]
-
-    form_endpoint = pokemon["forms"][0]["url"]
-    form_res = requests.get(form_endpoint)
-    form_res.raise_for_status()
-    form = form_res.json()
-
-    form_name = next(
-        (
-            form_name["name"] for form_name in form["form_names"]
-            if form_name["language"]["name"] == "ja"
-        ),
-        None
+    return Pokemon(
+        key=pokemon["name"],
+        base_stats=BaseStats(*base_stat_values),
+        sprite=pokemon["sprites"]["front_default"],
+        forms=[form["name"] for form in pokemon["forms"]],
     )
 
-    return {
-        "form_name_ja": form_name,
-        "baseStats": base_stats,
-        "sprite": sprite,
-    }
+
+def fetch_form(key: str) -> Form:
+    endpoint = "/".join((_POKEAPI, "api", "v2", "pokemon-form", quote(key)))
+    res = requests.get(endpoint)
+    res.raise_for_status()
+    form = res.json()
+
+    name: Optional[MultilingualName] = None
+    form_names = form["form_names"]
+    if form_names:
+        name = to_multilingual_name(form_names)
+
+    return Form(key=form["name"], name=name)
