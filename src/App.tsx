@@ -5,6 +5,11 @@ import Pokemon from './models/pokemon';
 
 import pokemons from './resources/pokemon.json';
 
+function selectPokemon(): Pokemon {
+  const index = Math.floor(Math.random() * pokemons.length);
+  return pokemons[index];
+};
+
 function PokemonView(
     {pokemon, answered}: {pokemon: Pokemon, answered: boolean},
 ) {
@@ -24,21 +29,32 @@ function PokemonView(
   );
 }
 
-function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
+function PokemonQuiz() {
+  const [lhs, setLhs] = React.useState(selectPokemon());
+  const [rhs, setRhs] = React.useState(selectPokemon());
   const [answered, setAnswered] = React.useState(false);
 
-  const onClick = () => {
+  const initialize = () => {
+    setLhs(selectPokemon());
+    setRhs(selectPokemon());
+    setAnswered(false);
+  };
+
+  const answer = () => {
     setAnswered(true);
   };
 
   return (
     <Grid container spacing={2}>
+      <Grid item xs={12}>
+        <h1>どちらが大きい?</h1>
+      </Grid>
       <Grid item xs={12} sm={6}>
         <Button
           fullWidth
           variant="outlined"
           disabled={answered}
-          onClick={onClick}
+          onClick={answer}
         >
           <PokemonView pokemon={lhs} answered={answered}/>
         </Button>
@@ -49,15 +65,25 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
           fullWidth
           variant="outlined"
           disabled={answered}
-          onClick={onClick}
+          onClick={answer}
         >
           <PokemonView pokemon={rhs} answered={answered} />
         </Button>
       </Grid>
 
-      {!answered &&
+      {answered?
         <Grid item xs={12}>
-          <Button fullWidth variant="outlined" size="large" onClick={onClick}>
+          <Button
+            fullWidth
+            variant="contained"
+            size="large"
+            onClick={initialize}
+          >
+            <Typography align="center">次の問題</Typography>
+          </Button>
+        </Grid> :
+        <Grid item xs={12}>
+          <Button fullWidth variant="outlined" size="large" onClick={answer}>
             <Typography align="center">同じ</Typography>
           </Button>
         </Grid>
@@ -67,12 +93,9 @@ function QuizForm({lhs, rhs}: {lhs: Pokemon, rhs: Pokemon}) {
 }
 
 function App() {
-  const lhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
-  const rhs: Pokemon = pokemons[Math.floor(Math.random() * pokemons.length)];
   return (
     <Container maxWidth="xl">
-      <h1>どちらが大きい?</h1>
-      <QuizForm lhs={lhs} rhs={rhs} />
+      <PokemonQuiz />
     </Container>
   );
 }
