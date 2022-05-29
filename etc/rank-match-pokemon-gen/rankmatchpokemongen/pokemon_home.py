@@ -6,6 +6,14 @@ from urllib.parse import quote
 
 import requests
 
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012)"
+        " AppleWebKit/537.36 (KHTML, like Gecko)"
+        " Chrome/83.0.4103.61 Mobile Safari/537.36"
+    )
+}
+
 
 @dataclass
 class RankMatch:
@@ -34,7 +42,7 @@ class Pokemon:
 
 def fetch_rank_matches() -> Iterator[RankMatch]:
     endpoint = 'https://api.battle.pokemon-home.com/cbd/competition/rankmatch/list'
-    res = requests.post(endpoint, json={'soft': 'Sw'})
+    res = requests.post(endpoint, json={'soft': 'Sw'}, headers=_HEADERS)
     res.raise_for_status()
 
     data = res.json()
@@ -54,7 +62,7 @@ def fetch_pokemon_ranking(rank_match: RankMatch) -> Iterator[RankMatch]:
         quote(str(rank_match.ts2)),
         'pokemon',
     ))
-    res = requests.get(endpoint)
+    res = requests.get(endpoint, headers=_HEADERS)
     res.raise_for_status()
 
     return (

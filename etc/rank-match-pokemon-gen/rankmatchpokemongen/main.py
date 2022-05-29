@@ -12,19 +12,28 @@ def nth(iterable, n):
 
 def rank_to_model(rank):
     species = fetch_species(str(rank.id))
+
     variety = nth(species.varieties, rank.form)
-    if variety == 'zacian':
-        variety = 'zacian-crowned'
+    if variety == "zacian":
+        variety = "zacian-crowned"
+
     pokemon = fetch_pokemon(variety)
-    pokemon['name'] = {'ja': species.name_ja}
+    base_stats = pokemon["baseStats"]
     return {
-        'name': {'ja': species.name_ja},
-        'form': (
-            {'ja': pokemon['form_name_ja']}
-            if pokemon['form_name_ja'] else None
+        "name": {"ja": species.name_ja},
+        "form": (
+            {"ja": pokemon["form_name_ja"]}
+            if pokemon["form_name_ja"] else None
         ),
-        'baseStats': pokemon['baseStats'],
-        'sprite': pokemon['sprite'],
+        "baseStats": {
+            "hp": base_stats.hp,
+            "attack": base_stats.attack,
+            "defense": base_stats.defense,
+            "specialAttack": base_stats.attack,
+            "specialDefense": base_stats.special_defense,
+            "speed": base_stats.speed,
+        },
+        "sprite": pokemon["sprite"],
     }
 
 
@@ -36,5 +45,6 @@ def main():
     )
 
     ranks = fetch_pokemon_ranking(target) 
+    ranks = itertools.islice(ranks, 5)
     models = [rank_to_model(rank) for rank in ranks]
     json.dump(models, sys.stdout, ensure_ascii=False, indent=2)
