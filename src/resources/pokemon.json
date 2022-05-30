@@ -1,5 +1,6 @@
 [
   {
+    "id": "zacian",
     "name": {
       "ja": "ザシアン"
     },
@@ -17,6 +18,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/888.png"
   },
   {
+    "id": "zacian-crowned",
     "name": {
       "ja": "ザシアン"
     },
@@ -34,6 +36,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png"
   },
   {
+    "id": "zapdos",
     "name": {
       "ja": "サンダー"
     },
@@ -49,6 +52,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
   },
   {
+    "id": "landorus-therian",
     "name": {
       "ja": "ランドロス"
     },
@@ -66,6 +70,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png"
   },
   {
+    "id": "ditto",
     "name": {
       "ja": "メタモン"
     },
@@ -81,6 +86,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
   },
   {
+    "id": "kyogre",
     "name": {
       "ja": "カイオーガ"
     },
@@ -98,6 +104,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/382.png"
   },
   {
+    "id": "calyrex-shadow",
     "name": {
       "ja": "バドレックス"
     },
@@ -115,6 +122,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png"
   },
   {
+    "id": "porygon2",
     "name": {
       "ja": "ポリゴン２"
     },
@@ -130,6 +138,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png"
   },
   {
+    "id": "yveltal",
     "name": {
       "ja": "イベルタル"
     },
@@ -145,6 +154,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/717.png"
   },
   {
+    "id": "tyranitar",
     "name": {
       "ja": "バンギラス"
     },
@@ -160,6 +170,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/248.png"
   },
   {
+    "id": "quagsire",
     "name": {
       "ja": "ヌオー"
     },
@@ -175,6 +186,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png"
   },
   {
+    "id": "ferrothorn",
     "name": {
       "ja": "ナットレイ"
     },
@@ -190,6 +202,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png"
   },
   {
+    "id": "necrozma-dusk",
     "name": {
       "ja": "ネクロズマ"
     },
@@ -207,6 +220,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png"
   },
   {
+    "id": "cinderace",
     "name": {
       "ja": "エースバーン"
     },
@@ -222,6 +236,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/815.png"
   },
   {
+    "id": "seismitoad",
     "name": {
       "ja": "ガマゲロゲ"
     },
@@ -237,6 +252,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png"
   },
   {
+    "id": "mimikyu-disguised",
     "name": {
       "ja": "ミミッキュ"
     },
@@ -252,6 +268,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/778.png"
   },
   {
+    "id": "ho-oh",
     "name": {
       "ja": "ホウオウ"
     },
@@ -267,6 +284,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/250.png"
   },
   {
+    "id": "urshifu-single-strike",
     "name": {
       "ja": "ウーラオス"
     },
@@ -284,6 +302,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png"
   },
   {
+    "id": "eternatus",
     "name": {
       "ja": "ムゲンダイナ"
     },
@@ -299,6 +318,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/890.png"
   },
   {
+    "id": "chansey",
     "name": {
       "ja": "ラッキー"
     },
@@ -314,6 +334,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
   },
   {
+    "id": "hippowdon",
     "name": {
       "ja": "カバルドン"
     },
@@ -329,6 +350,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png"
   },
   {
+    "id": "gastrodon",
     "name": {
       "ja": "トリトドン"
     },
@@ -344,6 +366,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png"
   },
   {
+    "id": "xerneas",
     "name": {
       "ja": "ゼルネアス"
     },
@@ -359,6 +382,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/716.png"
   },
   {
+    "id": "grimmsnarl",
     "name": {
       "ja": "オーロンゲ"
     },
@@ -374,6 +398,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png"
   },
   {
+    "id": "zekrom",
     "name": {
       "ja": "ゼクロム"
     },
@@ -389,6 +414,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
   },
   {
+    "id": "incineroar",
     "name": {
       "ja": "ガオガエン"
     },
@@ -404,6 +430,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/727.png"
   },
   {
+    "id": "urshifu-rapid-strike",
     "name": {
       "ja": "ウーラオス"
     },
@@ -421,6 +448,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png"
   },
   {
+    "id": "regieleki",
     "name": {
       "ja": "レジエレキ"
     },
@@ -436,6 +464,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/894.png"
   },
   {
+    "id": "mamoswine",
     "name": {
       "ja": "マンムー"
     },
@@ -451,6 +480,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png"
   },
   {
+    "id": "dialga",
     "name": {
       "ja": "ディアルガ"
     },
@@ -466,6 +496,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
   },
   {
+    "id": "kyurem-black",
     "name": {
       "ja": "キュレム"
     },
@@ -483,6 +514,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png"
   },
   {
+    "id": "celesteela",
     "name": {
       "ja": "テッカグヤ"
     },
@@ -498,6 +530,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/797.png"
   },
   {
+    "id": "dracovish",
     "name": {
       "ja": "ウオノラゴン"
     },
@@ -513,6 +546,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/882.png"
   },
   {
+    "id": "swampert",
     "name": {
       "ja": "ラグラージ"
     },
@@ -528,6 +562,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png"
   },
   {
+    "id": "tapu-fini",
     "name": {
       "ja": "カプ・レヒレ"
     },
@@ -543,6 +578,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/788.png"
   },
   {
+    "id": "darmanitan-galar-standard",
     "name": {
       "ja": "ヒヒダルマ"
     },
@@ -560,6 +596,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png"
   },
   {
+    "id": "dragapult",
     "name": {
       "ja": "ドラパルト"
     },
@@ -575,6 +612,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/887.png"
   },
   {
+    "id": "rillaboom",
     "name": {
       "ja": "ゴリランダー"
     },
@@ -590,6 +628,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/812.png"
   },
   {
+    "id": "zygarde-10-power-construct",
     "name": {
       "ja": "ジガルデ"
     },
@@ -607,6 +646,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10118.png"
   },
   {
+    "id": "zygarde-50",
     "name": {
       "ja": "ジガルデ"
     },
@@ -624,6 +664,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png"
   },
   {
+    "id": "zygarde-complete",
     "name": {
       "ja": "ジガルデ"
     },
@@ -641,6 +682,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png"
   },
   {
+    "id": "garchomp",
     "name": {
       "ja": "ガブリアス"
     },
@@ -656,6 +698,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png"
   },
   {
+    "id": "shedinja",
     "name": {
       "ja": "ヌケニン"
     },
@@ -671,6 +714,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/292.png"
   },
   {
+    "id": "umbreon",
     "name": {
       "ja": "ブラッキー"
     },
@@ -686,6 +730,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png"
   },
   {
+    "id": "lapras",
     "name": {
       "ja": "ラプラス"
     },
@@ -701,6 +746,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
   },
   {
+    "id": "groudon",
     "name": {
       "ja": "グラードン"
     },
@@ -718,6 +764,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/383.png"
   },
   {
+    "id": "lugia",
     "name": {
       "ja": "ルギア"
     },
@@ -733,6 +780,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/249.png"
   },
   {
+    "id": "whimsicott",
     "name": {
       "ja": "エルフーン"
     },
@@ -748,6 +796,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png"
   },
   {
+    "id": "blissey",
     "name": {
       "ja": "ハピナス"
     },
@@ -763,6 +812,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png"
   },
   {
+    "id": "calyrex-ice",
     "name": {
       "ja": "バドレックス"
     },
@@ -780,6 +830,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png"
   },
   {
+    "id": "reshiram",
     "name": {
       "ja": "レシラム"
     },
@@ -795,6 +846,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
   },
   {
+    "id": "blaziken",
     "name": {
       "ja": "バシャーモ"
     },
@@ -810,6 +862,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png"
   },
   {
+    "id": "pheromosa",
     "name": {
       "ja": "フェローチェ"
     },
@@ -825,6 +878,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/795.png"
   },
   {
+    "id": "rotom-wash",
     "name": {
       "ja": "ロトム"
     },
@@ -842,6 +896,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png"
   },
   {
+    "id": "gothitelle",
     "name": {
       "ja": "ゴチルゼル"
     },
@@ -857,6 +912,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png"
   },
   {
+    "id": "moltres-galar",
     "name": {
       "ja": "ファイヤー"
     },
@@ -874,6 +930,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png"
   },
   {
+    "id": "dragonite",
     "name": {
       "ja": "カイリュー"
     },
@@ -889,6 +946,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
   },
   {
+    "id": "excadrill",
     "name": {
       "ja": "ドリュウズ"
     },
@@ -904,6 +962,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png"
   },
   {
+    "id": "kartana",
     "name": {
       "ja": "カミツルギ"
     },
@@ -919,6 +978,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/798.png"
   },
   {
+    "id": "rotom-heat",
     "name": {
       "ja": "ロトム"
     },
@@ -936,6 +996,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png"
   },
   {
+    "id": "mewtwo",
     "name": {
       "ja": "ミュウツー"
     },
@@ -951,6 +1012,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
   },
   {
+    "id": "ninetales-alola",
     "name": {
       "ja": "キュウコン"
     },
@@ -968,6 +1030,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png"
   },
   {
+    "id": "kyurem-white",
     "name": {
       "ja": "キュレム"
     },
@@ -985,6 +1048,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png"
   },
   {
+    "id": "heatran",
     "name": {
       "ja": "ヒードラン"
     },
@@ -1000,6 +1064,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/485.png"
   },
   {
+    "id": "pyukumuku",
     "name": {
       "ja": "ナマコブシ"
     },
@@ -1015,6 +1080,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/771.png"
   },
   {
+    "id": "heliolisk",
     "name": {
       "ja": "エレザード"
     },
@@ -1030,6 +1096,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/695.png"
   },
   {
+    "id": "charizard",
     "name": {
       "ja": "リザードン"
     },
@@ -1045,6 +1112,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
   },
   {
+    "id": "rayquaza",
     "name": {
       "ja": "レックウザ"
     },
@@ -1060,6 +1128,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png"
   },
   {
+    "id": "skarmory",
     "name": {
       "ja": "エアームド"
     },
@@ -1075,6 +1144,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png"
   },
   {
+    "id": "arcanine",
     "name": {
       "ja": "ウインディ"
     },
@@ -1090,6 +1160,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
   },
   {
+    "id": "tapu-koko",
     "name": {
       "ja": "カプ・コケコ"
     },
@@ -1105,6 +1176,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/785.png"
   },
   {
+    "id": "volcarona",
     "name": {
       "ja": "ウルガモス"
     },
@@ -1120,6 +1192,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png"
   },
   {
+    "id": "rhyperior",
     "name": {
       "ja": "ドサイドン"
     },
@@ -1135,6 +1208,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png"
   },
   {
+    "id": "toxapex",
     "name": {
       "ja": "ドヒドイデ"
     },
@@ -1150,6 +1224,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png"
   },
   {
+    "id": "lunala",
     "name": {
       "ja": "ルナアーラ"
     },
@@ -1165,6 +1240,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/792.png"
   },
   {
+    "id": "thundurus-incarnate",
     "name": {
       "ja": "ボルトロス"
     },
@@ -1182,6 +1258,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png"
   },
   {
+    "id": "palkia",
     "name": {
       "ja": "パルキア"
     },
@@ -1197,6 +1274,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
   },
   {
+    "id": "primarina",
     "name": {
       "ja": "アシレーヌ"
     },
@@ -1212,6 +1290,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png"
   },
   {
+    "id": "nihilego",
     "name": {
       "ja": "ウツロイド"
     },
@@ -1227,6 +1306,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/793.png"
   },
   {
+    "id": "metagross",
     "name": {
       "ja": "メタグロス"
     },
@@ -1242,6 +1322,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/376.png"
   },
   {
+    "id": "salamence",
     "name": {
       "ja": "ボーマンダ"
     },
@@ -1257,6 +1338,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/373.png"
   },
   {
+    "id": "solgaleo",
     "name": {
       "ja": "ソルガレオ"
     },
@@ -1272,6 +1354,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png"
   },
   {
+    "id": "suicune",
     "name": {
       "ja": "スイクン"
     },
@@ -1287,6 +1370,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/245.png"
   },
   {
+    "id": "chandelure",
     "name": {
       "ja": "シャンデラ"
     },
@@ -1302,6 +1386,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png"
   },
   {
+    "id": "corviknight",
     "name": {
       "ja": "アーマーガア"
     },
@@ -1317,6 +1402,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/823.png"
   },
   {
+    "id": "klefki",
     "name": {
       "ja": "クレッフィ"
     },
@@ -1332,6 +1418,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/707.png"
   },
   {
+    "id": "blastoise",
     "name": {
       "ja": "カメックス"
     },
@@ -1347,6 +1434,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
   },
   {
+    "id": "aegislash-shield",
     "name": {
       "ja": "ギルガルド"
     },
@@ -1364,6 +1452,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png"
   },
   {
+    "id": "cresselia",
     "name": {
       "ja": "クレセリア"
     },
@@ -1379,6 +1468,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png"
   },
   {
+    "id": "gengar",
     "name": {
       "ja": "ゲンガー"
     },
@@ -1394,6 +1484,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
   },
   {
+    "id": "corsola-galar",
     "name": {
       "ja": "サニーゴ"
     },
@@ -1411,6 +1502,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png"
   },
   {
+    "id": "gyarados",
     "name": {
       "ja": "ギャラドス"
     },
@@ -1426,6 +1518,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
   },
   {
+    "id": "galvantula",
     "name": {
       "ja": "デンチュラ"
     },
@@ -1441,6 +1534,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png"
   },
   {
+    "id": "scizor",
     "name": {
       "ja": "ハッサム"
     },
@@ -1456,6 +1550,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png"
   },
   {
+    "id": "giratina-origin",
     "name": {
       "ja": "ギラティナ"
     },
@@ -1473,6 +1568,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png"
   },
   {
+    "id": "moltres",
     "name": {
       "ja": "ファイヤー"
     },
@@ -1488,6 +1584,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
   },
   {
+    "id": "hatterene",
     "name": {
       "ja": "ブリムオン"
     },
@@ -1503,6 +1600,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png"
   },
   {
+    "id": "magnezone",
     "name": {
       "ja": "ジバコイル"
     },
@@ -1518,6 +1616,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png"
   },
   {
+    "id": "torkoal",
     "name": {
       "ja": "コータス"
     },
@@ -1533,6 +1632,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/324.png"
   },
   {
+    "id": "diggersby",
     "name": {
       "ja": "ホルード"
     },
@@ -1548,6 +1648,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/660.png"
   },
   {
+    "id": "tapu-bulu",
     "name": {
       "ja": "カプ・ブルル"
     },
@@ -1563,6 +1664,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/787.png"
   },
   {
+    "id": "azumarill",
     "name": {
       "ja": "マリルリ"
     },
@@ -1578,6 +1680,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png"
   },
   {
+    "id": "dracozolt",
     "name": {
       "ja": "パッチラゴン"
     },
@@ -1593,6 +1696,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/880.png"
   },
   {
+    "id": "slurpuff",
     "name": {
       "ja": "ペロリーム"
     },
@@ -1608,6 +1712,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/685.png"
   },
   {
+    "id": "lucario",
     "name": {
       "ja": "ルカリオ"
     },
@@ -1623,6 +1728,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png"
   },
   {
+    "id": "snorlax",
     "name": {
       "ja": "カビゴン"
     },
@@ -1638,6 +1744,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
   },
   {
+    "id": "weavile",
     "name": {
       "ja": "マニューラ"
     },
@@ -1653,6 +1760,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png"
   },
   {
+    "id": "milotic",
     "name": {
       "ja": "ミロカロス"
     },
@@ -1668,6 +1776,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png"
   },
   {
+    "id": "latios",
     "name": {
       "ja": "ラティオス"
     },
@@ -1683,6 +1792,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/381.png"
   },
   {
+    "id": "sylveon",
     "name": {
       "ja": "ニンフィア"
     },
@@ -1698,6 +1808,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png"
   },
   {
+    "id": "zamazenta",
     "name": {
       "ja": "ザマゼンタ"
     },
@@ -1715,6 +1826,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/889.png"
   },
   {
+    "id": "zamazenta-crowned",
     "name": {
       "ja": "ザマゼンタ"
     },
@@ -1732,21 +1844,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png"
   },
   {
-    "name": {
-      "ja": "ツボツボ"
-    },
-    "form": null,
-    "base_stats": {
-      "hp": 20,
-      "attack": 10,
-      "defense": 230,
-      "special_attack": 10,
-      "special_defense": 230,
-      "speed": 5
-    },
-    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
-  },
-  {
+    "id": "thundurus-therian",
     "name": {
       "ja": "ボルトロス"
     },
@@ -1764,6 +1862,23 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png"
   },
   {
+    "id": "shuckle",
+    "name": {
+      "ja": "ツボツボ"
+    },
+    "form": null,
+    "base_stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 230,
+      "special_attack": 10,
+      "special_defense": 230,
+      "speed": 5
+    },
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/213.png"
+  },
+  {
+    "id": "cloyster",
     "name": {
       "ja": "パルシェン"
     },
@@ -1779,6 +1894,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
   },
   {
+    "id": "tapu-lele",
     "name": {
       "ja": "カプ・テテフ"
     },
@@ -1794,6 +1910,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/786.png"
   },
   {
+    "id": "zoroark",
     "name": {
       "ja": "ゾロアーク"
     },
@@ -1809,6 +1926,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png"
   },
   {
+    "id": "zapdos-galar",
     "name": {
       "ja": "サンダー"
     },
@@ -1826,6 +1944,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png"
   },
   {
+    "id": "marowak-alola",
     "name": {
       "ja": "ガラガラ"
     },
@@ -1843,6 +1962,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png"
   },
   {
+    "id": "blacephalon",
     "name": {
       "ja": "ズガドーン"
     },
@@ -1858,6 +1978,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/806.png"
   },
   {
+    "id": "uxie",
     "name": {
       "ja": "ユクシー"
     },
@@ -1873,6 +1994,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
   },
   {
+    "id": "lanturn",
     "name": {
       "ja": "ランターン"
     },
@@ -1888,6 +2010,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png"
   },
   {
+    "id": "scolipede",
     "name": {
       "ja": "ペンドラー"
     },
@@ -1903,6 +2026,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png"
   },
   {
+    "id": "butterfree",
     "name": {
       "ja": "バタフリー"
     },
@@ -1918,6 +2042,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
   },
   {
+    "id": "polteageist",
     "name": {
       "ja": "ポットデス"
     },
@@ -1933,6 +2058,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png"
   },
   {
+    "id": "espeon",
     "name": {
       "ja": "エーフィ"
     },
@@ -1948,6 +2074,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png"
   },
   {
+    "id": "xurkitree",
     "name": {
       "ja": "デンジュモク"
     },
@@ -1963,6 +2090,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png"
   },
   {
+    "id": "togekiss",
     "name": {
       "ja": "トゲキッス"
     },
@@ -1978,6 +2106,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png"
   },
   {
+    "id": "cinccino",
     "name": {
       "ja": "チラチーノ"
     },
@@ -1993,6 +2122,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png"
   },
   {
+    "id": "entei",
     "name": {
       "ja": "エンテイ"
     },
@@ -2008,6 +2138,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/244.png"
   },
   {
+    "id": "durant",
     "name": {
       "ja": "アイアント"
     },
@@ -2023,6 +2154,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
   },
   {
+    "id": "giratina-altered",
     "name": {
       "ja": "ギラティナ"
     },
@@ -2040,6 +2172,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
   },
   {
+    "id": "inteleon",
     "name": {
       "ja": "インテレオン"
     },
@@ -2055,6 +2188,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/818.png"
   },
   {
+    "id": "obstagoon",
     "name": {
       "ja": "タチフサグマ"
     },
@@ -2070,6 +2204,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png"
   },
   {
+    "id": "dubwool",
     "name": {
       "ja": "バイウールー"
     },
@@ -2085,6 +2220,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/832.png"
   },
   {
+    "id": "aggron",
     "name": {
       "ja": "ボスゴドラ"
     },
@@ -2100,6 +2236,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png"
   },
   {
+    "id": "latias",
     "name": {
       "ja": "ラティアス"
     },
@@ -2115,6 +2252,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png"
   },
   {
+    "id": "goodra",
     "name": {
       "ja": "ヌメルゴン"
     },
@@ -2130,6 +2268,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/706.png"
   },
   {
+    "id": "gardevoir",
     "name": {
       "ja": "サーナイト"
     },
@@ -2145,6 +2284,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png"
   },
   {
+    "id": "venusaur",
     "name": {
       "ja": "フシギバナ"
     },
@@ -2160,6 +2300,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
   },
   {
+    "id": "hydreigon",
     "name": {
       "ja": "サザンドラ"
     },
@@ -2175,6 +2316,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png"
   },
   {
+    "id": "accelgor",
     "name": {
       "ja": "アギルダー"
     },
@@ -2190,6 +2332,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png"
   },
   {
+    "id": "stunfisk",
     "name": {
       "ja": "マッギョ"
     },
@@ -2205,6 +2348,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
   },
   {
+    "id": "lycanroc-dusk",
     "name": {
       "ja": "ルガルガン"
     },
@@ -2222,6 +2366,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png"
   },
   {
+    "id": "haxorus",
     "name": {
       "ja": "オノノクス"
     },
@@ -2237,6 +2382,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png"
   },
   {
+    "id": "steelix",
     "name": {
       "ja": "ハガネール"
     },
@@ -2252,6 +2398,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png"
   },
   {
+    "id": "crawdaunt",
     "name": {
       "ja": "シザリガー"
     },
@@ -2267,6 +2414,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/342.png"
   },
   {
+    "id": "ludicolo",
     "name": {
       "ja": "ルンパッパ"
     },
@@ -2282,6 +2430,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png"
   },
   {
+    "id": "doublade",
     "name": {
       "ja": "ニダンギル"
     },
@@ -2297,6 +2446,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/680.png"
   },
   {
+    "id": "avalugg",
     "name": {
       "ja": "クレベース"
     },
@@ -2312,6 +2462,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/713.png"
   },
   {
+    "id": "glaceon",
     "name": {
       "ja": "グレイシア"
     },
@@ -2327,6 +2478,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png"
   },
   {
+    "id": "kingdra",
     "name": {
       "ja": "キングドラ"
     },
@@ -2342,6 +2494,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/230.png"
   },
   {
+    "id": "sableye",
     "name": {
       "ja": "ヤミラミ"
     },
@@ -2357,6 +2510,7 @@
     "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/302.png"
   },
   {
+    "id": "bronzong",
     "name": {
       "ja": "ドータクン"
     },

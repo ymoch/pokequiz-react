@@ -19,6 +19,7 @@ class BaseStats:
 
 @dataclass
 class Pokemon:
+    id: str
     name: MultilingualName
     form: Optional[MultilingualName]
     base_stats: BaseStats

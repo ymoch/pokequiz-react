@@ -1,4 +1,5 @@
 export default interface Pokemon {
+  id: string,
   name: {
     ja: string;
   };
@@ -8,5 +9,4 @@ export default interface Pokemon {
   base_stats: {
     speed: number;
   }
-  sprite: string;
 };

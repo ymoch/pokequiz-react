@@ -9,11 +9,13 @@ packages = [
 
 [tool.poetry.scripts]
 rank-match-pokemon-gen = "rankmatchpokemongen.main:main"
+resolve-sprite = "rankmatchpokemongen.main:resolve_sprite"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.27.1"
 tqdm = "^4.64.0"
+dacite = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"

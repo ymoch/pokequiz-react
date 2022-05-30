@@ -4,6 +4,8 @@ import sys
 from dataclasses import asdict
 from typing import Iterator
 
+import requests
+from dacite import from_dict
 from tqdm import tqdm
 
 from .model import Pokemon
@@ -36,11 +38,28 @@ def rank_to_models(rank) -> Iterator[Pokemon]:
             form = fetch_form(pokemon.forms[0])
 
         yield Pokemon(
+            id=target,
             name=species.name,
             form=form.name if form else None,
             base_stats=pokemon.base_stats,
             sprite=pokemon.sprite,
         )
+
+
+def resolve_sprite():
+    input_stream = sys.stdin
+    values = json.load(input_stream)
+
+    for value in tqdm(values):
+        pokemon: Pokemon = from_dict(data_class=Pokemon, data=value)
+        endpoint = pokemon.sprite
+        res = requests.get(endpoint)
+        res.raise_for_status()
+
+        name = pokemon.id + '.png'
+        path = name
+        with open(path, 'wb') as f:
+            f.write(res.content)
 
 
 def main():

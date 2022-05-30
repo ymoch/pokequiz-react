@@ -49,6 +49,7 @@ function PokemonCandidate(
     },
 ) {
   const color = selectBaseColor(answered, correct);
+  const sprite = `${process.env.PUBLIC_URL}/sprites/${pokemon.id}.png`;
   return (
     <Button
       fullWidth
@@ -65,7 +66,7 @@ function PokemonCandidate(
           }</strong>
         </Typography>
         <Typography align="center">
-          <img src={pokemon.sprite} width={96} height={96} />
+          <img src={sprite} width={96} height={96} />
         </Typography>
         <Typography align="center" variant="caption">
           {pokemon.name.ja}
