@@ -60,7 +60,9 @@ function PokemonCandidate(
     >
       <div>
         <Typography align="center" variant="h5" color={color}>
-          すばやさ種族値: <strong>{answered ? pokemon.baseStats.speed : '???'}</strong>
+          すばやさ種族値: <strong>{
+            answered ? pokemon.base_stats.speed : '???'
+          }</strong>
         </Typography>
         <Typography align="center">
           <img src={pokemon.sprite} width={96} height={96} />
@@ -105,7 +107,7 @@ function PokemonQuiz() {
     }
 
     const compare = selectComparator(choice);
-    setCorrect(compare(lhs.baseStats.speed, rhs.baseStats.speed));
+    setCorrect(compare(lhs.base_stats.speed, rhs.base_stats.speed));
     setAnswered(true);
   };
 

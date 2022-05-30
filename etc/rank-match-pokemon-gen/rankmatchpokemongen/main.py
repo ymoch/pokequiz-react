@@ -1,9 +1,12 @@
 import itertools
 import json
 import sys
+from dataclasses import asdict
+from typing import Iterator
 
 from tqdm import tqdm
 
+from .model import Pokemon
 from .pokeapi import fetch_species, fetch_pokemon, fetch_form
 from .pokemon_home import fetch_rank_matches, fetch_pokemon_ranking
 
@@ -12,7 +15,7 @@ def nth(iterable, n):
     return next(itertools.islice(iterable, n, None))
 
 
-def rank_to_models(rank):
+def rank_to_models(rank) -> Iterator[Pokemon]:
     species = fetch_species(str(rank.id))
 
     primary_target = nth(species.varieties, rank.form)
@@ -32,19 +35,12 @@ def rank_to_models(rank):
         if pokemon.forms[0] == pokemon.key and not pokemon.key.startswith("mimikyu-"):
             form = fetch_form(pokemon.forms[0])
 
-        yield {
-            "name": {"ja": species.name.ja},
-            "form": {"ja": form.name.ja} if form and form.name else None,
-            "baseStats": {
-                "hp": pokemon.base_stats.hp,
-                "attack": pokemon.base_stats.attack,
-                "defense": pokemon.base_stats.defense,
-                "specialAttack": pokemon.base_stats.special_attack,
-                "specialDefense": pokemon.base_stats.special_defense,
-                "speed": pokemon.base_stats.speed,
-            },
-            "sprite": pokemon.sprite,
-        }
+        yield Pokemon(
+            name=species.name,
+            form=form.name if form else None,
+            base_stats=pokemon.base_stats,
+            sprite=pokemon.sprite,
+        )
 
 
 def main():
@@ -55,7 +51,12 @@ def main():
     )
 
     ranks = fetch_pokemon_ranking(target)
-    models = list(
+    pokemons = list(
         itertools.chain.from_iterable(rank_to_models(rank) for rank in tqdm(ranks))
     )
-    json.dump(models, sys.stdout, ensure_ascii=False, indent=2)
+    json.dump(
+        [asdict(pokemon) for pokemon in pokemons],
+        sys.stdout,
+        ensure_ascii=False,
+        indent=2,
+    )

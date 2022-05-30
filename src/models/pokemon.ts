@@ -5,7 +5,7 @@ export default interface Pokemon {
   form: {
     ja: string;
   } | null;
-  baseStats: {
+  base_stats: {
     speed: number;
   }
   sprite: string;

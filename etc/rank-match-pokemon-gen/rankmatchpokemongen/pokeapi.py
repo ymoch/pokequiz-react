@@ -3,22 +3,9 @@ from dataclasses import dataclass
 from typing import Iterable, List, Optional
 from urllib.parse import quote
 
+from .model import BaseStats, MultilingualName
+
 _POKEAPI = "https://pokeapi.co"
-
-
-@dataclass
-class MultilingualName:
-    ja: str
-
-
-@dataclass
-class BaseStats:
-    hp: int
-    attack: int
-    defense: int
-    special_attack: int
-    special_defense: int
-    speed: int
 
 
 @dataclass
