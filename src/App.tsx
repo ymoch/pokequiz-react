@@ -155,6 +155,15 @@ function App() {
   return (
     <Container maxWidth="xl">
       <PokemonQuiz />
+      <footer>
+        <Typography variant="caption">
+          出典 (データ・画像): <a
+            href="https://pokeapi.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >PokéAPI</a>
+        </Typography>
+      </footer>
     </Container>
   );
 }

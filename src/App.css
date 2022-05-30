@@ -1,3 +1,7 @@
 h1 {
   font-size: 2rem;
 }
+footer {
+  margin-top: 1rem;
+  text-align: right;
+}
